@@ -1,0 +1,2768 @@
+---------------------------------------------------------------
+[ 2019-03-06T02:47:02+08:00 ] 140.205.205.25 HEAD /
+[ info ] ypmk.sxxslwl.com:443/ [运行时间：0.017790s][吞吐率：56.21req/s] [内存消耗：1,660.05kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001915s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => 'ypmk.sxxslwl.com:443',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-06T05:37:21+08:00 ] 221.234.237.112 GET /
+[ info ] 47.94.91.189/ [运行时间：0.016387s][吞吐率：61.02req/s] [内存消耗：1,660.62kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001341s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '47.94.91.189',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-06T06:41:38+08:00 ] 140.205.205.25 HEAD /
+[ info ] laowu.weitongtianxia.cn:443/ [运行时间：0.015917s][吞吐率：62.83req/s] [内存消耗：1,660.09kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001360s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => 'laowu.weitongtianxia.cn:443',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-06T11:09:48+08:00 ] 171.13.14.23 GET /
+[ info ] ypmk.sxxslwl.com/ [运行时间：0.018636s][吞吐率：53.66req/s] [内存消耗：1,664.56kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001641s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ypmk.sxxslwl.com',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-06T11:26:22+08:00 ] 218.26.54.76 GET /api/index/jing_yan
+[ info ] laowu.weitongtianxia.cn/api/index/jing_yan [运行时间：0.031254s][吞吐率：32.00req/s] [内存消耗：3,014.93kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001428s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jing_yan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'laowu.weitongtianxia.cn',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.3(0x17000321) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001473s ]
+[ info ] [ RUN ] app\api\controller\Index->jing_yan[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000610s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SELECT `id`,`experience` FROM `gc_experience` WHERE `gc_experience`.`delete_time` IS NULL [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:26:22+08:00 ] 218.26.54.76 GET /api/Index/index
+[ info ] laowu.weitongtianxia.cn/api/Index/index [运行时间：0.040197s][吞吐率：24.88req/s] [内存消耗：2,989.06kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001337s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'laowu.weitongtianxia.cn',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.3(0x17000321) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001360s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.001022s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `gc_config` WHERE  `group` = 'weapp' [ RunTime:0.000312s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:26:22+08:00 ] 218.26.54.76 GET /api/team/index?page=1
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=1 [运行时间：0.033992s][吞吐率：29.42req/s] [内存消耗：3,189.62kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001266s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'laowu.weitongtianxia.cn',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.3(0x17000321) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001303s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000399s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (30,6,40,35,36,45,31,44) [ RunTime:0.000256s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:26:26+08:00 ] 218.26.54.76 GET /api/team/index?page=2
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=2 [运行时间：0.034398s][吞吐率：29.07req/s] [内存消耗：3,187.23kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001426s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'laowu.weitongtianxia.cn',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.3(0x17000321) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001514s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000551s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001148s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 10,10 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (32,31,36,46,43) [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:26:33+08:00 ] 218.26.54.76 GET /api/team/index?page=3
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=3 [运行时间：0.034285s][吞吐率：29.17req/s] [内存消耗：3,187.25kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001399s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'laowu.weitongtianxia.cn',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.3(0x17000321) NetType/4G Language/zh_CN',
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001507s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000546s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001150s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 20,10 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (47,32,38,41,39) [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:36:43+08:00 ] 176.32.33.80 GET /
+[ info ] 47.94.91.189/ [运行时间：0.017498s][吞吐率：57.15req/s] [内存消耗：1,660.69kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001456s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-957.1.3.el7.x86_64',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'host' => '47.94.91.189',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-06T11:46:47+08:00 ] 223.104.14.59 GET /api/index/jing_yan
+[ info ] laowu.weitongtianxia.cn/api/index/jing_yan [运行时间：0.030558s][吞吐率：32.72req/s] [内存消耗：3,002.04kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001405s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jing_yan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; HUAWEI MLA-AL10 Build/HUAWEIMLA-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand2 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001400s ]
+[ info ] [ RUN ] app\api\controller\Index->jing_yan[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000475s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT `id`,`experience` FROM `gc_experience` WHERE `gc_experience`.`delete_time` IS NULL [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:46:47+08:00 ] 223.104.14.59 GET /api/Index/index
+[ info ] laowu.weitongtianxia.cn/api/Index/index [运行时间：0.060547s][吞吐率：16.52req/s] [内存消耗：2,976.17kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001438s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; HUAWEI MLA-AL10 Build/HUAWEIMLA-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand2 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001424s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000325s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `gc_config` WHERE  `group` = 'weapp' [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:46:47+08:00 ] 223.104.14.59 GET /api/team/index?page=1
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=1 [运行时间：0.064861s][吞吐率：15.42req/s] [内存消耗：3,176.73kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001428s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; HUAWEI MLA-AL10 Build/HUAWEIMLA-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand2 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001504s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005835s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.000956s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (30,6,40,35,36,45,31,44) [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:47:31+08:00 ] 117.136.4.106 GET /api/index/jing_yan
+[ info ] laowu.weitongtianxia.cn/api/index/jing_yan [运行时间：0.029085s][吞吐率：34.38req/s] [内存消耗：3,002.04kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001352s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jing_yan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; DUK-AL20 Build/HUAWEIDUK-AL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001404s ]
+[ info ] [ RUN ] app\api\controller\Index->jing_yan[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000429s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT `id`,`experience` FROM `gc_experience` WHERE `gc_experience`.`delete_time` IS NULL [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:47:31+08:00 ] 117.136.4.106 GET /api/Index/index
+[ info ] laowu.weitongtianxia.cn/api/Index/index [运行时间：0.028378s][吞吐率：35.24req/s] [内存消耗：2,976.17kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001336s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; DUK-AL20 Build/HUAWEIDUK-AL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001370s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000456s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.000985s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `gc_config` WHERE  `group` = 'weapp' [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:47:31+08:00 ] 117.136.4.106 GET /api/team/index?page=1
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=1 [运行时间：0.033398s][吞吐率：29.94req/s] [内存消耗：3,176.73kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001364s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; DUK-AL20 Build/HUAWEIDUK-AL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001367s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (30,6,40,35,36,45,31,44) [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:47:53+08:00 ] 117.136.4.106 GET /api/team/index?page=2
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=2 [运行时间：0.034037s][吞吐率：29.38req/s] [内存消耗：3,174.34kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001344s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; DUK-AL20 Build/HUAWEIDUK-AL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001385s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001192s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 10,10 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (32,31,36,46,43) [ RunTime:0.000257s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:48:07+08:00 ] 117.136.4.106 GET /api/team/index?page=3
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=3 [运行时间：0.034245s][吞吐率：29.20req/s] [内存消耗：3,174.36kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001351s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; DUK-AL20 Build/HUAWEIDUK-AL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001364s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000432s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001065s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 20,10 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (47,32,38,41,39) [ RunTime:0.000281s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:53:15+08:00 ] 117.136.4.106 GET /api/team/index?page=4
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=4 [运行时间：0.033540s][吞吐率：29.82req/s] [内存消耗：3,175.73kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001357s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; DUK-AL20 Build/HUAWEIDUK-AL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '4',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001396s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 30,10 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (31,32,40,36,35,39) [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:53:27+08:00 ] 117.136.4.106 GET /api/team/index?page=5
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=5 [运行时间：0.034299s][吞吐率：29.16req/s] [内存消耗：3,176.83kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001360s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; DUK-AL20 Build/HUAWEIDUK-AL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001351s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000424s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 40,10 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (36,47,48,39,38,41,32,34) [ RunTime:0.000248s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:54:12+08:00 ] 117.136.4.106 GET /api/team/show?id=102
+[ info ] laowu.weitongtianxia.cn/api/team/show?id=102 [运行时间：0.030846s][吞吐率：32.42req/s] [内存消耗：3,089.86kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001322s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; DUK-AL20 Build/HUAWEIDUK-AL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'id' => '102',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001356s ]
+[ info ] [ RUN ] app\api\controller\Team->show[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000429s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001025s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1  AND `id` = 102 LIMIT 1 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` = 31 [ RunTime:0.000227s ]
+---------------------------------------------------------------
+[ 2019-03-06T11:58:50+08:00 ] 176.32.33.80 GET /a2billing/customer/templates/default/footer.tpl
+[ info ] 47.94.91.189/a2billing/customer/templates/default/footer.tpl [运行时间：0.017299s][吞吐率：57.81req/s] [内存消耗：1,666.25kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001401s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'a2billing',
+    1 => 'customer',
+    2 => 'templates',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-957.1.3.el7.x86_64',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'host' => '47.94.91.189',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'footer.tpl',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-06T12:05:43+08:00 ] 118.81.243.133 GET /api/index/jing_yan
+[ info ] laowu.weitongtianxia.cn/api/index/jing_yan [运行时间：0.028486s][吞吐率：35.10req/s] [内存消耗：3,002.04kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001337s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jing_yan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; vivo X20A Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand2 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001374s ]
+[ info ] [ RUN ] app\api\controller\Index->jing_yan[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT `id`,`experience` FROM `gc_experience` WHERE `gc_experience`.`delete_time` IS NULL [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2019-03-06T12:05:44+08:00 ] 118.81.243.133 GET /api/Index/index
+[ info ] laowu.weitongtianxia.cn/api/Index/index [运行时间：0.040125s][吞吐率：24.92req/s] [内存消耗：2,976.17kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001373s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; vivo X20A Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand2 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001386s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000444s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.012211s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `gc_config` WHERE  `group` = 'weapp' [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[ 2019-03-06T12:05:44+08:00 ] 118.81.243.133 GET /api/team/index?page=1
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=1 [运行时间：0.036729s][吞吐率：27.23req/s] [内存消耗：3,176.73kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001321s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; vivo X20A Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand2 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001338s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000410s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (30,6,40,35,36,45,31,44) [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2019-03-06T12:05:46+08:00 ] 118.81.243.133 GET /api/team/show?id=2
+[ info ] laowu.weitongtianxia.cn/api/team/show?id=2 [运行时间：0.032481s][吞吐率：30.79req/s] [内存消耗：3,089.84kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001360s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; vivo X20A Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand2 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001490s ]
+[ info ] [ RUN ] app\api\controller\Team->show[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000674s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001031s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` = 30 [ RunTime:0.000237s ]
+---------------------------------------------------------------
+[ 2019-03-06T12:20:14+08:00 ] 176.32.33.80 GET /recordings/
+[ info ] 47.94.91.189/recordings/ [运行时间：0.016231s][吞吐率：61.61req/s] [内存消耗：1,665.14kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001332s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'recordings',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-957.1.3.el7.x86_64',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'host' => '47.94.91.189',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-06T12:41:41+08:00 ] 176.32.33.80 GET /vtigercrm/vtigerservice.php
+[ info ] 47.94.91.189/vtigercrm/vtigerservice.php [运行时间：0.016343s][吞吐率：61.19req/s] [内存消耗：1,665.34kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001361s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'vtigercrm',
+    1 => 'vtigerservice.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-957.1.3.el7.x86_64',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'host' => '47.94.91.189',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-06T13:02:36+08:00 ] 59.49.107.72 GET /api/index/jing_yan
+[ info ] laowu.weitongtianxia.cn/api/index/jing_yan [运行时间：0.030364s][吞吐率：32.93req/s] [内存消耗：3,002.04kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001359s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jing_yan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo X9i Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x27000339) Process/appbrand0 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001371s ]
+[ info ] [ RUN ] app\api\controller\Index->jing_yan[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000460s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000997s ]
+[ sql ] [ SQL ] SELECT `id`,`experience` FROM `gc_experience` WHERE `gc_experience`.`delete_time` IS NULL [ RunTime:0.000333s ]
+---------------------------------------------------------------
+[ 2019-03-06T13:02:37+08:00 ] 59.49.107.72 GET /api/Index/index
+[ info ] laowu.weitongtianxia.cn/api/Index/index [运行时间：0.056225s][吞吐率：17.79req/s] [内存消耗：2,976.17kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001351s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo X9i Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x27000339) Process/appbrand0 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001393s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018770s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `gc_config` WHERE  `group` = 'weapp' [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[ 2019-03-06T13:02:37+08:00 ] 59.49.107.72 GET /api/team/index?page=1
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=1 [运行时间：0.038323s][吞吐率：26.09req/s] [内存消耗：3,176.73kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001320s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo X9i Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x27000339) Process/appbrand0 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001385s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002463s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (30,6,40,35,36,45,31,44) [ RunTime:0.000247s ]
+---------------------------------------------------------------
+[ 2019-03-06T13:02:51+08:00 ] 59.49.107.72 GET /api/team/show?id=2
+[ info ] laowu.weitongtianxia.cn/api/team/show?id=2 [运行时间：0.031283s][吞吐率：31.97req/s] [内存消耗：3,089.84kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001327s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo X9i Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x27000339) Process/appbrand0 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001415s ]
+[ info ] [ RUN ] app\api\controller\Team->show[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000483s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` = 30 [ RunTime:0.000226s ]
+---------------------------------------------------------------
+[ 2019-03-06T13:03:26+08:00 ] 59.49.107.72 GET /api/team/show?id=84
+[ info ] laowu.weitongtianxia.cn/api/team/show?id=84 [运行时间：0.031277s][吞吐率：31.97req/s] [内存消耗：3,089.86kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001459s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo X9i Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x27000339) Process/appbrand0 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'id' => '84',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001375s ]
+[ info ] [ RUN ] app\api\controller\Team->show[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1  AND `id` = 84 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` = 6 [ RunTime:0.000232s ]
+---------------------------------------------------------------
+[ 2019-03-06T13:04:08+08:00 ] 59.49.107.72 GET /api/team/index?page=2
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=2 [运行时间：0.034067s][吞吐率：29.35req/s] [内存消耗：3,174.34kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001260s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo X9i Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x27000339) Process/appbrand0 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001217s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000421s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001118s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 10,10 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (32,31,36,46,43) [ RunTime:0.000261s ]
+---------------------------------------------------------------
+[ 2019-03-06T13:04:22+08:00 ] 59.49.107.72 GET /api/team/index?page=3
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=3 [运行时间：0.039193s][吞吐率：25.51req/s] [内存消耗：3,174.36kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001484s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo X9i Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x27000339) Process/appbrand0 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001373s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000509s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001094s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 20,10 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (47,32,38,41,39) [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[ 2019-03-06T13:04:30+08:00 ] 59.49.107.72 GET /api/team/index?page=4
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=4 [运行时间：0.034741s][吞吐率：28.78req/s] [内存消耗：3,175.73kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001358s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo X9i Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x27000339) Process/appbrand0 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '4',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001401s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000439s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001057s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 30,10 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (31,32,40,36,35,39) [ RunTime:0.000243s ]
+---------------------------------------------------------------
+[ 2019-03-06T13:04:45+08:00 ] 59.49.107.72 GET /api/team/index?page=5
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=5 [运行时间：0.033668s][吞吐率：29.70req/s] [内存消耗：3,176.83kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001348s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; vivo X9i Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x27000339) Process/appbrand0 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001360s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000873s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001057s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 40,10 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (36,47,48,39,38,41,32,34) [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2019-03-06T14:49:49+08:00 ] 113.75.241.14 GET /api/index/jing_yan
+[ info ] laowu.weitongtianxia.cn/api/index/jing_yan [运行时间：0.051680s][吞吐率：19.35req/s] [内存消耗：3,014.93kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001418s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jing_yan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'laowu.weitongtianxia.cn',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.3(0x17000321) NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001459s ]
+[ info ] [ RUN ] app\api\controller\Index->jing_yan[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.001107s ]
+[ sql ] [ SQL ] SELECT `id`,`experience` FROM `gc_experience` WHERE `gc_experience`.`delete_time` IS NULL [ RunTime:0.000457s ]
+---------------------------------------------------------------
+[ 2019-03-06T14:49:49+08:00 ] 113.75.241.14 GET /api/Index/index
+[ info ] laowu.weitongtianxia.cn/api/Index/index [运行时间：0.052392s][吞吐率：19.09req/s] [内存消耗：2,989.06kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001410s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'laowu.weitongtianxia.cn',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.3(0x17000321) NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001519s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.001014s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `gc_config` WHERE  `group` = 'weapp' [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2019-03-06T14:49:49+08:00 ] 113.75.241.14 GET /api/team/index?page=1
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=1 [运行时间：0.038207s][吞吐率：26.17req/s] [内存消耗：3,189.62kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001401s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'laowu.weitongtianxia.cn',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.3(0x17000321) NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001877s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001081s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (30,6,40,35,36,45,31,44) [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[ 2019-03-06T14:49:55+08:00 ] 113.75.241.14 GET /api/team/show?id=85
+[ info ] laowu.weitongtianxia.cn/api/team/show?id=85 [运行时间：0.032886s][吞吐率：30.41req/s] [内存消耗：3,102.50kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001404s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'laowu.weitongtianxia.cn',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 MicroMessenger/7.0.3(0x17000321) NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'br, gzip, deflate',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '85',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001433s ]
+[ info ] [ RUN ] app\api\controller\Team->show[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000609s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001305s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1  AND `id` = 85 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` = 6 [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[ 2019-03-06T15:02:05+08:00 ] 118.81.243.133 GET /api/index/jing_yan
+[ info ] laowu.weitongtianxia.cn/api/index/jing_yan [运行时间：0.030018s][吞吐率：33.31req/s] [内存消耗：3,002.04kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001359s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jing_yan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; vivo X20A Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand3 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001381s ]
+[ info ] [ RUN ] app\api\controller\Index->jing_yan[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000444s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT `id`,`experience` FROM `gc_experience` WHERE `gc_experience`.`delete_time` IS NULL [ RunTime:0.000312s ]
+---------------------------------------------------------------
+[ 2019-03-06T15:02:05+08:00 ] 118.81.243.133 GET /api/Index/index
+[ info ] laowu.weitongtianxia.cn/api/Index/index [运行时间：0.039832s][吞吐率：25.11req/s] [内存消耗：2,976.17kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001316s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; vivo X20A Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand3 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001408s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `gc_config` WHERE  `group` = 'weapp' [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2019-03-06T15:02:05+08:00 ] 118.81.243.133 GET /api/team/index?page=1
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=1 [运行时间：0.063871s][吞吐率：15.66req/s] [内存消耗：3,176.73kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001342s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; vivo X20A Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand3 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001355s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000426s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.017680s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (30,6,40,35,36,45,31,44) [ RunTime:0.001957s ]
+---------------------------------------------------------------
+[ 2019-03-06T15:03:34+08:00 ] 118.81.243.133 GET /api/team/show?id=2
+[ info ] laowu.weitongtianxia.cn/api/team/show?id=2 [运行时间：0.031211s][吞吐率：32.04req/s] [内存消耗：3,089.84kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001339s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; vivo X20A Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand3 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001372s ]
+[ info ] [ RUN ] app\api\controller\Team->show[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` = 30 [ RunTime:0.000224s ]
+---------------------------------------------------------------
+[ 2019-03-06T15:24:39+08:00 ] 118.81.243.133 GET /api/team/show?id=2
+[ info ] laowu.weitongtianxia.cn/api/team/show?id=2 [运行时间：0.030894s][吞吐率：32.37req/s] [内存消耗：3,089.84kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001339s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; vivo X20A Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand3 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001374s ]
+[ info ] [ RUN ] app\api\controller\Team->show[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000474s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001056s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` = 30 [ RunTime:0.000234s ]
+---------------------------------------------------------------
+[ 2019-03-06T15:29:50+08:00 ] 118.81.243.133 GET /api/team/show?id=84
+[ info ] laowu.weitongtianxia.cn/api/team/show?id=84 [运行时间：0.030957s][吞吐率：32.30req/s] [内存消耗：3,089.86kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001310s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; vivo X20A Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand3 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'id' => '84',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001360s ]
+[ info ] [ RUN ] app\api\controller\Team->show[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1  AND `id` = 84 LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` = 6 [ RunTime:0.000229s ]
+---------------------------------------------------------------
+[ 2019-03-06T17:57:35+08:00 ] 218.26.54.94 GET /api/index/jing_yan
+[ info ] laowu.weitongtianxia.cn/api/index/jing_yan [运行时间：0.031153s][吞吐率：32.10req/s] [内存消耗：3,002.04kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001370s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jing_yan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OS105 Build/NGI77B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001374s ]
+[ info ] [ RUN ] app\api\controller\Index->jing_yan[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000518s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SELECT `id`,`experience` FROM `gc_experience` WHERE `gc_experience`.`delete_time` IS NULL [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2019-03-06T17:57:35+08:00 ] 218.26.54.94 GET /api/Index/index
+[ info ] laowu.weitongtianxia.cn/api/Index/index [运行时间：0.035572s][吞吐率：28.11req/s] [内存消耗：2,976.17kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001324s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OS105 Build/NGI77B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001415s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `gc_config` WHERE  `group` = 'weapp' [ RunTime:0.000312s ]
+---------------------------------------------------------------
+[ 2019-03-06T17:57:35+08:00 ] 218.26.54.94 GET /api/team/index?page=1
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=1 [运行时间：0.064371s][吞吐率：15.53req/s] [内存消耗：3,176.73kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001379s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OS105 Build/NGI77B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001375s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008687s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.000956s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (30,6,40,35,36,45,31,44) [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[ 2019-03-06T17:57:43+08:00 ] 218.26.54.94 GET /api/team/index?page=2
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=2 [运行时间：0.032850s][吞吐率：30.44req/s] [内存消耗：3,174.34kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001332s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OS105 Build/NGI77B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001357s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 10,10 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (32,31,36,46,43) [ RunTime:0.000239s ]
+---------------------------------------------------------------
+[ 2019-03-06T17:57:51+08:00 ] 218.26.54.94 GET /api/team/show?id=2
+[ info ] laowu.weitongtianxia.cn/api/team/show?id=2 [运行时间：0.030999s][吞吐率：32.26req/s] [内存消耗：3,089.84kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001331s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OS105 Build/NGI77B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001386s ]
+[ info ] [ RUN ] app\api\controller\Team->show[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000577s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001035s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` = 30 [ RunTime:0.000230s ]
+---------------------------------------------------------------
+[ 2019-03-06T17:57:58+08:00 ] 218.26.54.94 GET /api/team/index?page=1
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=1 [运行时间：0.034433s][吞吐率：29.04req/s] [内存消耗：3,176.73kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001445s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; OS105 Build/NGI77B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001398s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000670s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001062s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (30,6,40,35,36,45,31,44) [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2019-03-06T20:14:58+08:00 ] 9.19.8.231 GET /api/index/jing_yan
+[ info ] laowu.weitongtianxia.cn/api/index/jing_yan [运行时间：0.028772s][吞吐率：34.76req/s] [内存消耗：3,003.38kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001320s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jing_yan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '9.19.8.231',
+  'x-mmtls-append' => 'null',
+  'x-mmtimeout' => '15000',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'cookie' => ';',
+  'origin' => 'https://laowu.weitongtianxia.cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/0/page-frame.html',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001379s ]
+[ info ] [ RUN ] app\api\controller\Index->jing_yan[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000421s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SELECT `id`,`experience` FROM `gc_experience` WHERE `gc_experience`.`delete_time` IS NULL [ RunTime:0.000593s ]
+---------------------------------------------------------------
+[ 2019-03-06T20:14:58+08:00 ] 9.19.8.231 GET /api/Index/index
+[ info ] laowu.weitongtianxia.cn/api/Index/index [运行时间：0.055482s][吞吐率：18.02req/s] [内存消耗：2,977.51kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001311s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '9.19.8.231',
+  'x-mmtls-append' => 'null',
+  'x-mmtimeout' => '15000',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'cookie' => ';',
+  'origin' => 'https://laowu.weitongtianxia.cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/0/page-frame.html',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001393s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000520s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `gc_config` WHERE  `group` = 'weapp' [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2019-03-06T20:14:58+08:00 ] 9.19.8.231 GET /api/team/index?page=1
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=1 [运行时间：0.052163s][吞吐率：19.17req/s] [内存消耗：3,178.06kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001374s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '9.19.8.231',
+  'x-mmtls-append' => 'null',
+  'x-mmtimeout' => '15000',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'cookie' => ';',
+  'origin' => 'https://laowu.weitongtianxia.cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/0/page-frame.html',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001387s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000291s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (30,6,40,35,36,45,31,44) [ RunTime:0.000252s ]
+---------------------------------------------------------------
+[ 2019-03-06T20:15:05+08:00 ] 9.19.8.231 GET /api/team/index?page=1
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=1 [运行时间：0.033319s][吞吐率：30.01req/s] [内存消耗：3,178.06kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001347s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '9.19.8.231',
+  'x-mmtls-append' => 'null',
+  'x-mmtimeout' => '15000',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'cookie' => ';',
+  'origin' => 'https://laowu.weitongtianxia.cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/0/page-frame.html',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001398s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000424s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (30,6,40,35,36,45,31,44) [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2019-03-06T20:15:17+08:00 ] 9.19.8.231 GET /api/team/show?id=84
+[ info ] laowu.weitongtianxia.cn/api/team/show?id=84 [运行时间：0.031419s][吞吐率：31.83req/s] [内存消耗：3,091.45kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001310s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '9.19.8.231',
+  'x-mmtls-append' => 'null',
+  'x-mmtimeout' => '15000',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'cookie' => ';',
+  'origin' => 'https://laowu.weitongtianxia.cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/0/page-frame.html',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '84',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001361s ]
+[ info ] [ RUN ] app\api\controller\Team->show[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000399s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001014s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1  AND `id` = 84 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` = 6 [ RunTime:0.000229s ]
+---------------------------------------------------------------
+[ 2019-03-06T20:15:21+08:00 ] 9.19.8.231 GET /api/Index/index
+[ info ] laowu.weitongtianxia.cn/api/Index/index [运行时间：0.039871s][吞吐率：25.08req/s] [内存消耗：2,977.51kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001324s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '9.19.8.231',
+  'x-mmtls-append' => 'null',
+  'x-mmtimeout' => '15000',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'cookie' => ';',
+  'origin' => 'https://laowu.weitongtianxia.cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/0/page-frame.html',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001394s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011928s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `gc_config` WHERE  `group` = 'weapp' [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[ 2019-03-06T20:15:21+08:00 ] 9.19.8.231 GET /api/team/index?page=1
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=1 [运行时间：0.065714s][吞吐率：15.22req/s] [内存消耗：3,178.06kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001363s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '9.19.8.231',
+  'x-mmtls-append' => 'null',
+  'x-mmtimeout' => '15000',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 MicroMessenger/6.5',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'cookie' => ';',
+  'origin' => 'https://laowu.weitongtianxia.cn',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/0/page-frame.html',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001426s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000359s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (30,6,40,35,36,45,31,44) [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2019-03-06T21:19:35+08:00 ] 209.17.97.34 GET /
+[ info ] laowu.weitongtianxia.cn/ [运行时间：0.017157s][吞吐率：58.28req/s] [内存消耗：1,660.05kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001314s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)',
+  'host' => 'laowu.weitongtianxia.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-06T22:49:17+08:00 ] 223.104.101.102 GET /api/index/jing_yan
+[ info ] laowu.weitongtianxia.cn/api/index/jing_yan [运行时间：0.030529s][吞吐率：32.76req/s] [内存消耗：3,002.04kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001347s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jing_yan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; HUAWEI MLA-AL10 Build/HUAWEIMLA-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001373s ]
+[ info ] [ RUN ] app\api\controller\Index->jing_yan[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SELECT `id`,`experience` FROM `gc_experience` WHERE `gc_experience`.`delete_time` IS NULL [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2019-03-06T22:49:17+08:00 ] 223.104.101.102 GET /api/Index/index
+[ info ] laowu.weitongtianxia.cn/api/Index/index [运行时间：0.035349s][吞吐率：28.29req/s] [内存消耗：2,976.17kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001311s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; HUAWEI MLA-AL10 Build/HUAWEIMLA-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001395s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007853s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `gc_config` WHERE  `group` = 'weapp' [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2019-03-06T22:49:17+08:00 ] 223.104.101.102 GET /api/team/index?page=1
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=1 [运行时间：0.063234s][吞吐率：15.81req/s] [内存消耗：3,176.73kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001336s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; HUAWEI MLA-AL10 Build/HUAWEIMLA-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033A) Process/appbrand0 NetType/4G Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001402s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004847s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.000904s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (30,6,40,35,36,45,31,44) [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2019-03-06T23:07:20+08:00 ] 171.120.70.104 GET /api/index/jing_yan
+[ info ] laowu.weitongtianxia.cn/api/index/jing_yan [运行时间：0.030282s][吞吐率：33.02req/s] [内存消耗：3,002.04kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001323s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jing_yan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBEM00 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033B) Process/appbrand0 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001435s ]
+[ info ] [ RUN ] app\api\controller\Index->jing_yan[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000907s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT `id`,`experience` FROM `gc_experience` WHERE `gc_experience`.`delete_time` IS NULL [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2019-03-06T23:07:20+08:00 ] 171.120.70.104 GET /api/Index/index
+[ info ] laowu.weitongtianxia.cn/api/Index/index [运行时间：0.055304s][吞吐率：18.08req/s] [内存消耗：2,976.17kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001327s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBEM00 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033B) Process/appbrand0 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.012412s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012701s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.000985s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `gc_config` WHERE  `group` = 'weapp' [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2019-03-06T23:07:20+08:00 ] 171.120.70.104 GET /api/team/index?page=1
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=1 [运行时间：0.058908s][吞吐率：16.98req/s] [内存消耗：3,176.73kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001278s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBEM00 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033B) Process/appbrand0 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.012138s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004837s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (30,6,40,35,36,45,31,44) [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2019-03-06T23:07:31+08:00 ] 171.120.70.104 GET /api/team/show?id=100
+[ info ] laowu.weitongtianxia.cn/api/team/show?id=100 [运行时间：0.030788s][吞吐率：32.48req/s] [内存消耗：3,089.63kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001351s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBEM00 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033B) Process/appbrand0 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'id' => '100',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001405s ]
+[ info ] [ RUN ] app\api\controller\Team->show[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1  AND `id` = 100 LIMIT 1 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` = 36 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2019-03-06T23:07:56+08:00 ] 171.120.70.104 POST /api/user/login
+[ info ] laowu.weitongtianxia.cn/api/user/login [运行时间：0.031239s][吞吐率：32.01req/s] [内存消耗：3,056.96kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001352s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBEM00 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033B) Process/appbrand0 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+  'content-length' => '48',
+)
+[ info ] [ PARAM ] array (
+  'account' => '13803412061',
+  'password' => 'wxj565917',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001372s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->login[ /www/wwwroot/LaowuAdmin/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000436s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_user` [ RunTime:0.001191s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_user` WHERE  `mobile` = '13803412061' LIMIT 1 [ RunTime:0.000575s ]
+---------------------------------------------------------------
+[ 2019-03-06T23:23:45+08:00 ] 101.132.153.242 GET /
+[ info ] laowu.weitongtianxia.cn/ [运行时间：0.017312s][吞吐率：57.76req/s] [内存消耗：1,660.68kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001387s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-06T23:33:32+08:00 ] 171.120.70.104 GET /api/index/jing_yan
+[ info ] laowu.weitongtianxia.cn/api/index/jing_yan [运行时间：0.028491s][吞吐率：35.10req/s] [内存消耗：3,002.04kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001317s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'jing_yan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBEM00 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033B) Process/appbrand2 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001411s ]
+[ info ] [ RUN ] app\api\controller\Index->jing_yan[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000438s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000948s ]
+[ sql ] [ SQL ] SELECT `id`,`experience` FROM `gc_experience` WHERE `gc_experience`.`delete_time` IS NULL [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[ 2019-03-06T23:33:32+08:00 ] 171.120.70.104 GET /api/Index/index
+[ info ] laowu.weitongtianxia.cn/api/Index/index [运行时间：0.028462s][吞吐率：35.13req/s] [内存消耗：2,976.17kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001389s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBEM00 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033B) Process/appbrand2 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001380s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000427s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `gc_config` WHERE  `group` = 'weapp' [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[ 2019-03-06T23:33:33+08:00 ] 171.120.70.104 GET /api/team/index?page=1
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=1 [运行时间：0.033390s][吞吐率：29.95req/s] [内存消耗：3,176.73kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001338s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBEM00 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033B) Process/appbrand2 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001376s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000436s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (30,6,40,35,36,45,31,44) [ RunTime:0.000245s ]
+---------------------------------------------------------------
+[ 2019-03-06T23:34:04+08:00 ] 171.120.70.104 GET /api/team/index?page=2
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=2 [运行时间：0.033017s][吞吐率：30.29req/s] [内存消耗：3,174.34kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001332s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBEM00 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033B) Process/appbrand2 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001363s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000484s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001055s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 10,10 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (32,31,36,46,43) [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2019-03-06T23:34:09+08:00 ] 171.120.70.104 GET /api/team/index?page=3
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=3 [运行时间：0.033198s][吞吐率：30.12req/s] [内存消耗：3,174.36kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001338s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBEM00 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033B) Process/appbrand2 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001355s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000584s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 20,10 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (47,32,38,41,39) [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2019-03-06T23:34:11+08:00 ] 171.120.70.104 GET /api/team/index?page=4
+[ info ] laowu.weitongtianxia.cn/api/team/index?page=4 [运行时间：0.034926s][吞吐率：28.63req/s] [内存消耗：3,175.73kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001479s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'laowu.weitongtianxia.cn',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.1.0; PBEM00 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 MicroMessenger/7.0.3.1400(0x2700033B) Process/appbrand2 NetType/WIFI Language/zh_CN',
+  'referer' => 'https://servicewechat.com/wxeb97c1fd7ede595a/5/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'page' => '4',
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001454s ]
+[ info ] [ RUN ] app\api\controller\Team->index[ /www/wwwroot/LaowuAdmin/application/api/controller/Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000479s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_team` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_team` WHERE  `status` = 1 LIMIT 30,10 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (31,32,40,36,35,39) [ RunTime:0.000242s ]

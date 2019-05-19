@@ -1,0 +1,12 @@
+INSERT INTO `gc_auth_rule` VALUES ('212', 'file', '0', 'designerexperience', '设计师经验类型管理', 'fa fa-circle-o', '', '', '1', '1558091483', '1558091620', '0', 'normal');
+INSERT INTO `gc_auth_rule` VALUES ('213', 'file', '212', 'designerexperience/index', '查看', 'fa fa-circle-o', '', '', '0', '1558091484', '1558091484', '0', 'normal');
+INSERT INTO `gc_auth_rule` VALUES ('214', 'file', '212', 'designerexperience/add', '添加', 'fa fa-circle-o', '', '', '0', '1558091484', '1558091484', '0', 'normal');
+INSERT INTO `gc_auth_rule` VALUES ('215', 'file', '212', 'designerexperience/edit', '编辑', 'fa fa-circle-o', '', '', '0', '1558091484', '1558091484', '0', 'normal');
+INSERT INTO `gc_auth_rule` VALUES ('216', 'file', '212', 'designerexperience/del', '删除', 'fa fa-circle-o', '', '', '0', '1558091484', '1558091484', '0', 'normal');
+INSERT INTO `gc_auth_rule` VALUES ('217', 'file', '212', 'designerexperience/multi', '批量更新', 'fa fa-circle-o', '', '', '0', '1558091484', '1558091484', '0', 'normal');
+INSERT INTO `gc_auth_rule` VALUES ('218', 'file', '0', 'echarge', '用户充值提现明细管理', 'fa fa-circle-o', '', '', '1', '1558094038', '1558094038', '0', 'normal');
+INSERT INTO `gc_auth_rule` VALUES ('219', 'file', '218', 'echarge/index', '查看', 'fa fa-circle-o', '', '', '0', '1558094038', '1558094038', '0', 'normal');
+INSERT INTO `gc_auth_rule` VALUES ('220', 'file', '218', 'echarge/add', '添加', 'fa fa-circle-o', '', '', '0', '1558094038', '1558094038', '0', 'normal');
+INSERT INTO `gc_auth_rule` VALUES ('221', 'file', '218', 'echarge/edit', '编辑', 'fa fa-circle-o', '', '', '0', '1558094038', '1558094038', '0', 'normal');
+INSERT INTO `gc_auth_rule` VALUES ('222', 'file', '218', 'echarge/del', '删除', 'fa fa-circle-o', '', '', '0', '1558094038', '1558094038', '0', 'normal');
+INSERT INTO `gc_auth_rule` VALUES ('223', 'file', '218', 'echarge/multi', '批量更新', 'fa fa-circle-o', '', '', '0', '1558094038', '1558094038', '0', 'normal');

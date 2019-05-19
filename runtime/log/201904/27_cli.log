@@ -1,0 +1,434 @@
+[ 2019-04-27T00:16:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T00:16:09+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T00:16:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010001s ]
+[ 2019-04-27T00:16:09+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T00:16:09+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T00:16:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'designer' [ RunTime:0.004000s ]
+[ 2019-04-27T00:16:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_designer' [ RunTime:0.007001s ]
+[ 2019-04-27T00:16:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'experience' [ RunTime:0.002000s ]
+[ 2019-04-27T00:16:09+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_experience' [ RunTime:0.034002s ]
+[ 2019-04-27T00:16:09+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_designer' ORDER BY ORDINAL_POSITION [ RunTime:0.015001s ]
+[ 2019-04-27T00:16:09+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_experience' ORDER BY ORDINAL_POSITION [ RunTime:0.014001s ]
+[ 2019-04-27T00:16:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T00:16:10+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T00:16:10+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009000s ]
+[ 2019-04-27T00:16:10+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T00:16:10+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\admin\lang/zh-cn.php
+[ 2019-04-27T00:16:10+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T00:16:10+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gc_auth_rule` [ RunTime:0.018001s ]
+[ 2019-04-27T00:16:10+08:00 ][ sql ] [ SQL ] SELECT * FROM `gc_auth_rule` WHERE  `name` = 'designer' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T00:16:10+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'designer' , 'Designer' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1556295370 , 1556295370) [ RunTime:0.059003s ]
+[ 2019-04-27T00:16:10+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'designer/index' LIMIT 1 [ RunTime:0.002000s ]
+[ 2019-04-27T00:16:10+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'designer/add' LIMIT 1 [ RunTime:0.002000s ]
+[ 2019-04-27T00:16:10+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'designer/edit' LIMIT 1 [ RunTime:0.002000s ]
+[ 2019-04-27T00:16:10+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'designer/del' LIMIT 1 [ RunTime:0.002000s ]
+[ 2019-04-27T00:16:10+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'designer/multi' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T00:16:10+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 115 , 'designer/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1556295370 , 1556295370) [ RunTime:0.001000s ]
+[ 2019-04-27T00:16:10+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 115 , 'designer/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1556295370 , 1556295370) [ RunTime:0.001001s ]
+[ 2019-04-27T00:16:10+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 115 , 'designer/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1556295370 , 1556295370) [ RunTime:0.001000s ]
+[ 2019-04-27T00:16:10+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 115 , 'designer/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1556295370 , 1556295370) [ RunTime:0.001000s ]
+[ 2019-04-27T00:16:10+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 115 , 'designer/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1556295370 , 1556295370) [ RunTime:0.001000s ]
+[ 2019-04-27T15:35:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:35:38+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:35:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009001s ]
+[ 2019-04-27T15:35:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:35:49+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:35:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009001s ]
+[ 2019-04-27T15:38:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:38:00+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:38:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ 2019-04-27T15:38:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:38:23+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:38:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009000s ]
+[ 2019-04-27T15:38:23+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product' [ RunTime:0.002001s ]
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_product' [ RunTime:0.004000s ]
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_product' ORDER BY ORDINAL_POSITION [ RunTime:0.033002s ]
+[ 2019-04-27T15:38:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:38:23+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:38:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009000s ]
+[ 2019-04-27T15:38:23+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T15:38:23+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\admin\lang/zh-cn.php
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gc_auth_rule` [ RunTime:0.014001s ]
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] SELECT * FROM `gc_auth_rule` WHERE  `name` = 'product' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'product' , 'Product' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1556350703 , 1556350703) [ RunTime:0.100006s ]
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product/index' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product/add' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product/edit' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product/del' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product/multi' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 121 , 'product/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1556350703 , 1556350703) [ RunTime:0.001000s ]
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 121 , 'product/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1556350703 , 1556350703) [ RunTime:0.001000s ]
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 121 , 'product/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1556350703 , 1556350703) [ RunTime:0.000000s ]
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 121 , 'product/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1556350703 , 1556350703) [ RunTime:0.001000s ]
+[ 2019-04-27T15:38:23+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 121 , 'product/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1556350703 , 1556350703) [ RunTime:0.000000s ]
+[ 2019-04-27T15:39:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:39:35+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:39:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009000s ]
+[ 2019-04-27T15:40:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:40:03+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:40:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009000s ]
+[ 2019-04-27T15:40:03+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T15:40:03+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.014001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T15:40:03+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product_type' [ RunTime:0.001000s ]
+[ 2019-04-27T15:40:03+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_product_type' [ RunTime:0.004000s ]
+[ 2019-04-27T15:40:03+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product' [ RunTime:0.002000s ]
+[ 2019-04-27T15:40:03+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_product' [ RunTime:0.002000s ]
+[ 2019-04-27T15:40:03+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_product_type' ORDER BY ORDINAL_POSITION [ RunTime:0.014001s ]
+[ 2019-04-27T15:40:03+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_product' ORDER BY ORDINAL_POSITION [ RunTime:0.014001s ]
+[ 2019-04-27T15:40:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:40:03+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:40:03+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ 2019-04-27T15:40:04+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T15:40:04+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\admin\lang/zh-cn.php
+[ 2019-04-27T15:40:04+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T15:40:04+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gc_auth_rule` [ RunTime:0.014000s ]
+[ 2019-04-27T15:40:04+08:00 ][ sql ] [ SQL ] SELECT * FROM `gc_auth_rule` WHERE  `name` = 'product_type' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:40:04+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'product_type' , 'Product_type' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1556350804 , 1556350804) [ RunTime:0.138008s ]
+[ 2019-04-27T15:40:04+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product_type/index' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:40:04+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product_type/add' LIMIT 1 [ RunTime:0.002000s ]
+[ 2019-04-27T15:40:04+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product_type/edit' LIMIT 1 [ RunTime:0.002000s ]
+[ 2019-04-27T15:40:04+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product_type/del' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:40:04+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product_type/multi' LIMIT 1 [ RunTime:0.002000s ]
+[ 2019-04-27T15:40:04+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 127 , 'product_type/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1556350804 , 1556350804) [ RunTime:0.002000s ]
+[ 2019-04-27T15:40:04+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 127 , 'product_type/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1556350804 , 1556350804) [ RunTime:0.001000s ]
+[ 2019-04-27T15:40:04+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 127 , 'product_type/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1556350804 , 1556350804) [ RunTime:0.000000s ]
+[ 2019-04-27T15:40:04+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 127 , 'product_type/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1556350804 , 1556350804) [ RunTime:0.000000s ]
+[ 2019-04-27T15:40:04+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 127 , 'product_type/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1556350804 , 1556350804) [ RunTime:0.000000s ]
+[ 2019-04-27T15:51:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:51:18+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:51:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ 2019-04-27T15:51:40+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:51:40+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:51:40+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011001s ]
+[ 2019-04-27T15:51:40+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T15:51:40+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.004001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T15:51:40+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product_type' [ RunTime:0.002000s ]
+[ 2019-04-27T15:51:40+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_product_type' [ RunTime:0.002000s ]
+[ 2019-04-27T15:51:40+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product' [ RunTime:0.002000s ]
+[ 2019-04-27T15:51:40+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_product' [ RunTime:0.001000s ]
+[ 2019-04-27T15:51:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:51:56+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:51:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010000s ]
+[ 2019-04-27T15:51:56+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T15:51:56+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T15:51:56+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product_type' [ RunTime:0.002000s ]
+[ 2019-04-27T15:51:56+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_product_type' [ RunTime:0.002000s ]
+[ 2019-04-27T15:51:56+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product' [ RunTime:0.002000s ]
+[ 2019-04-27T15:51:56+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_product' [ RunTime:0.002001s ]
+[ 2019-04-27T15:51:56+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_product_type' ORDER BY ORDINAL_POSITION [ RunTime:0.016001s ]
+[ 2019-04-27T15:51:56+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_product' ORDER BY ORDINAL_POSITION [ RunTime:0.017001s ]
+[ 2019-04-27T15:51:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:51:56+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:51:56+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010001s ]
+[ 2019-04-27T15:51:57+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T15:51:57+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\admin\lang/zh-cn.php
+[ 2019-04-27T15:51:57+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T15:51:57+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gc_auth_rule` [ RunTime:0.017001s ]
+[ 2019-04-27T15:51:57+08:00 ][ sql ] [ SQL ] SELECT * FROM `gc_auth_rule` WHERE  `name` = 'type' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:51:57+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'type' , 'Type' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1556351517 , 1556351517) [ RunTime:0.051002s ]
+[ 2019-04-27T15:51:57+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'type/index' LIMIT 1 [ RunTime:0.000000s ]
+[ 2019-04-27T15:51:57+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'type/add' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:51:57+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'type/edit' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:51:57+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'type/del' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:51:57+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'type/multi' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:51:57+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 133 , 'type/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1556351517 , 1556351517) [ RunTime:0.000000s ]
+[ 2019-04-27T15:51:57+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 133 , 'type/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1556351517 , 1556351517) [ RunTime:0.001000s ]
+[ 2019-04-27T15:51:57+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 133 , 'type/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1556351517 , 1556351517) [ RunTime:0.001001s ]
+[ 2019-04-27T15:51:57+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 133 , 'type/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1556351517 , 1556351517) [ RunTime:0.001000s ]
+[ 2019-04-27T15:51:57+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 133 , 'type/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1556351517 , 1556351517) [ RunTime:0.000000s ]
+[ 2019-04-27T15:54:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:54:30+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:54:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009001s ]
+[ 2019-04-27T15:54:30+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product_type' [ RunTime:0.003000s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_product_type' [ RunTime:0.002000s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product' [ RunTime:0.002000s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_product' [ RunTime:0.002001s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_product_type' ORDER BY ORDINAL_POSITION [ RunTime:0.014001s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_product' ORDER BY ORDINAL_POSITION [ RunTime:0.014001s ]
+[ 2019-04-27T15:54:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:54:30+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:54:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009001s ]
+[ 2019-04-27T15:54:30+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T15:54:30+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\admin\lang/zh-cn.php
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gc_auth_rule` [ RunTime:0.015001s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] SELECT * FROM `gc_auth_rule` WHERE  `name` = 'product' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] SELECT * FROM `gc_auth_rule` WHERE  `name` = 'product/type' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (121 , 'product/type' , 'Type' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1556351670 , 1556351670) [ RunTime:0.137008s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product/type/index' LIMIT 1 [ RunTime:0.002000s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product/type/add' LIMIT 1 [ RunTime:0.002000s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product/type/edit' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product/type/del' LIMIT 1 [ RunTime:0.002000s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product/type/multi' LIMIT 1 [ RunTime:0.002001s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 139 , 'product/type/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1556351670 , 1556351670) [ RunTime:0.002000s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 139 , 'product/type/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1556351670 , 1556351670) [ RunTime:0.001000s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 139 , 'product/type/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1556351670 , 1556351670) [ RunTime:0.001000s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 139 , 'product/type/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1556351670 , 1556351670) [ RunTime:0.001000s ]
+[ 2019-04-27T15:54:30+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 139 , 'product/type/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1556351670 , 1556351670) [ RunTime:0.001000s ]
+[ 2019-04-27T15:55:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:55:51+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:55:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009000s ]
+[ 2019-04-27T15:55:51+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T15:55:51+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\admin\lang/zh-cn.php
+[ 2019-04-27T15:55:51+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T15:55:51+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gc_auth_rule` [ RunTime:0.015001s ]
+[ 2019-04-27T15:55:51+08:00 ][ sql ] [ SQL ] SELECT * FROM `gc_auth_rule` WHERE  `name` = 'type' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:55:51+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'type/index' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:55:51+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'type/add' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:55:51+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'type/edit' LIMIT 1 [ RunTime:0.000000s ]
+[ 2019-04-27T15:55:51+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'type/del' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T15:55:51+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'type/multi' LIMIT 1 [ RunTime:0.000000s ]
+[ 2019-04-27T15:55:51+08:00 ][ sql ] [ SQL ] UPDATE `gc_auth_rule`  SET `pid`=133,`name`='type/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1556351751  WHERE  `id` = 134 [ RunTime:0.014001s ]
+[ 2019-04-27T15:55:51+08:00 ][ sql ] [ SQL ] UPDATE `gc_auth_rule`  SET `pid`=133,`name`='type/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1556351751  WHERE  `id` = 135 [ RunTime:0.001000s ]
+[ 2019-04-27T15:55:51+08:00 ][ sql ] [ SQL ] UPDATE `gc_auth_rule`  SET `pid`=133,`name`='type/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1556351751  WHERE  `id` = 136 [ RunTime:0.001000s ]
+[ 2019-04-27T15:55:51+08:00 ][ sql ] [ SQL ] UPDATE `gc_auth_rule`  SET `pid`=133,`name`='type/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1556351751  WHERE  `id` = 137 [ RunTime:0.001000s ]
+[ 2019-04-27T15:55:51+08:00 ][ sql ] [ SQL ] UPDATE `gc_auth_rule`  SET `pid`=133,`name`='type/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1556351751  WHERE  `id` = 138 [ RunTime:0.001000s ]
+[ 2019-04-27T15:57:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:57:26+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:57:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008001s ]
+[ 2019-04-27T15:57:26+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T15:57:26+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T15:57:26+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product_type' [ RunTime:0.002000s ]
+[ 2019-04-27T15:57:26+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_product_type' [ RunTime:0.002000s ]
+[ 2019-04-27T15:57:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:57:38+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:57:38+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009001s ]
+[ 2019-04-27T15:57:38+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T15:57:38+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T15:57:38+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product_type' [ RunTime:0.002000s ]
+[ 2019-04-27T15:57:38+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_product_type' [ RunTime:0.002000s ]
+[ 2019-04-27T15:58:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:58:02+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:58:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009001s ]
+[ 2019-04-27T15:58:02+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T15:58:02+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T15:58:02+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product_type' [ RunTime:0.002000s ]
+[ 2019-04-27T15:58:02+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_product_type' [ RunTime:0.002000s ]
+[ 2019-04-27T15:58:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T15:58:25+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T15:58:25+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011000s ]
+[ 2019-04-27T15:58:25+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T15:58:25+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.014001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T15:58:25+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product' [ RunTime:0.002000s ]
+[ 2019-04-27T15:58:25+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_product' [ RunTime:0.002000s ]
+[ 2019-04-27T16:03:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T16:03:27+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T16:03:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ 2019-04-27T16:03:27+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T16:03:27+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T16:03:27+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'type' [ RunTime:0.002000s ]
+[ 2019-04-27T16:03:27+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_type' [ RunTime:0.006000s ]
+[ 2019-04-27T16:04:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T16:04:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T16:04:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009000s ]
+[ 2019-04-27T16:04:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'type' [ RunTime:0.002000s ]
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_type' [ RunTime:0.002000s ]
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_type' ORDER BY ORDINAL_POSITION [ RunTime:0.014001s ]
+[ 2019-04-27T16:04:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T16:04:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T16:04:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010001s ]
+[ 2019-04-27T16:04:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T16:04:01+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\admin\lang/zh-cn.php
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gc_auth_rule` [ RunTime:0.015001s ]
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `gc_auth_rule` WHERE  `name` = 'type' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'type' , 'Type' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1556352241 , 1556352241) [ RunTime:0.066004s ]
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'type/index' LIMIT 1 [ RunTime:0.002000s ]
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'type/add' LIMIT 1 [ RunTime:0.002000s ]
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'type/edit' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'type/del' LIMIT 1 [ RunTime:0.000000s ]
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'type/multi' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 145 , 'type/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1556352241 , 1556352241) [ RunTime:0.001000s ]
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 145 , 'type/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1556352241 , 1556352241) [ RunTime:0.000000s ]
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 145 , 'type/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1556352241 , 1556352241) [ RunTime:0.000000s ]
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 145 , 'type/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1556352241 , 1556352241) [ RunTime:0.000000s ]
+[ 2019-04-27T16:04:01+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 145 , 'type/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1556352241 , 1556352241) [ RunTime:0.000000s ]
+[ 2019-04-27T16:05:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T16:05:12+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T16:05:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008001s ]
+[ 2019-04-27T16:05:13+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'product' [ RunTime:0.002001s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_product' [ RunTime:0.002000s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'type' [ RunTime:0.002000s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_type' [ RunTime:0.002000s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_product' ORDER BY ORDINAL_POSITION [ RunTime:0.015001s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_type' ORDER BY ORDINAL_POSITION [ RunTime:0.015001s ]
+[ 2019-04-27T16:05:13+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T16:05:13+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T16:05:13+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010000s ]
+[ 2019-04-27T16:05:13+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T16:05:13+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\admin\lang/zh-cn.php
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gc_auth_rule` [ RunTime:0.015000s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] SELECT * FROM `gc_auth_rule` WHERE  `name` = 'product' LIMIT 1 [ RunTime:0.001001s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'product' , 'Product' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1556352313 , 1556352313) [ RunTime:0.189010s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product/index' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product/add' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product/edit' LIMIT 1 [ RunTime:0.000000s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product/del' LIMIT 1 [ RunTime:0.000000s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'product/multi' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 151 , 'product/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1556352313 , 1556352313) [ RunTime:0.000000s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 151 , 'product/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1556352313 , 1556352313) [ RunTime:0.000000s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 151 , 'product/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1556352313 , 1556352313) [ RunTime:0.000000s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 151 , 'product/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1556352313 , 1556352313) [ RunTime:0.001000s ]
+[ 2019-04-27T16:05:13+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 151 , 'product/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1556352313 , 1556352313) [ RunTime:0.001000s ]
+[ 2019-04-27T17:44:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T17:44:41+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T17:44:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010000s ]
+[ 2019-04-27T17:44:41+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'bid_labour' [ RunTime:0.003001s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_bid_labour' [ RunTime:0.002000s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_bid_labour' ORDER BY ORDINAL_POSITION [ RunTime:0.015001s ]
+[ 2019-04-27T17:44:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T17:44:41+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T17:44:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010000s ]
+[ 2019-04-27T17:44:41+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T17:44:41+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\admin\lang/zh-cn.php
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gc_auth_rule` [ RunTime:0.013001s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] SELECT * FROM `gc_auth_rule` WHERE  `name` = 'bid' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'bid' , 'bid' , 'fa fa-list' , '' , 1 , 'normal' , 1556358281 , 1556358281) [ RunTime:0.077004s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] SELECT * FROM `gc_auth_rule` WHERE  `name` = 'bid/labour' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (157 , 'bid/labour' , 'Labour' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1556358281 , 1556358281) [ RunTime:0.082005s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'bid/labour/index' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'bid/labour/add' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'bid/labour/edit' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'bid/labour/del' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'bid/labour/multi' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 158 , 'bid/labour/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1556358281 , 1556358281) [ RunTime:0.001000s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 158 , 'bid/labour/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1556358281 , 1556358281) [ RunTime:0.001000s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 158 , 'bid/labour/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1556358281 , 1556358281) [ RunTime:0.001000s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 158 , 'bid/labour/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1556358281 , 1556358281) [ RunTime:0.001000s ]
+[ 2019-04-27T17:44:41+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 158 , 'bid/labour/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1556358281 , 1556358281) [ RunTime:0.001000s ]
+[ 2019-04-27T17:55:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T17:55:55+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T17:55:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ 2019-04-27T17:55:55+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'bid_cargo' [ RunTime:0.001000s ]
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_bid_cargo' [ RunTime:0.001000s ]
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_bid_cargo' ORDER BY ORDINAL_POSITION [ RunTime:0.015001s ]
+[ 2019-04-27T17:55:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T17:55:55+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T17:55:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011001s ]
+[ 2019-04-27T17:55:55+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T17:55:55+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\admin\lang/zh-cn.php
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gc_auth_rule` [ RunTime:0.014001s ]
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] SELECT * FROM `gc_auth_rule` WHERE  `name` = 'bid' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] SELECT * FROM `gc_auth_rule` WHERE  `name` = 'bid/cargo' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (157 , 'bid/cargo' , 'Cargo' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1556358955 , 1556358955) [ RunTime:0.082005s ]
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'bid/cargo/index' LIMIT 1 [ RunTime:0.002000s ]
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'bid/cargo/add' LIMIT 1 [ RunTime:0.003000s ]
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'bid/cargo/edit' LIMIT 1 [ RunTime:0.002000s ]
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'bid/cargo/del' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'bid/cargo/multi' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 164 , 'bid/cargo/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1556358955 , 1556358955) [ RunTime:0.001000s ]
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 164 , 'bid/cargo/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1556358955 , 1556358955) [ RunTime:0.001000s ]
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 164 , 'bid/cargo/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1556358955 , 1556358955) [ RunTime:0.001000s ]
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 164 , 'bid/cargo/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1556358955 , 1556358955) [ RunTime:0.001000s ]
+[ 2019-04-27T17:55:55+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 164 , 'bid/cargo/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1556358955 , 1556358955) [ RunTime:0.001000s ]
+[ 2019-04-27T18:05:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T18:05:20+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T18:05:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008001s ]
+[ 2019-04-27T18:05:20+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'news' [ RunTime:0.002000s ]
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_news' [ RunTime:0.002000s ]
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_news' ORDER BY ORDINAL_POSITION [ RunTime:0.013000s ]
+[ 2019-04-27T18:05:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T18:05:20+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T18:05:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ 2019-04-27T18:05:20+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T18:05:20+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\admin\lang/zh-cn.php
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gc_auth_rule` [ RunTime:0.015001s ]
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] SELECT * FROM `gc_auth_rule` WHERE  `name` = 'news' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'news' , 'News' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1556359520 , 1556359520) [ RunTime:0.049003s ]
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'news/index' LIMIT 1 [ RunTime:0.003001s ]
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'news/add' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'news/edit' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'news/del' LIMIT 1 [ RunTime:0.002001s ]
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'news/multi' LIMIT 1 [ RunTime:0.002000s ]
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 170 , 'news/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1556359520 , 1556359520) [ RunTime:0.001000s ]
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 170 , 'news/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1556359520 , 1556359520) [ RunTime:0.001000s ]
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 170 , 'news/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1556359520 , 1556359520) [ RunTime:0.001000s ]
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 170 , 'news/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1556359520 , 1556359520) [ RunTime:0.001000s ]
+[ 2019-04-27T18:05:20+08:00 ][ sql ] [ SQL ] INSERT INTO `gc_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 170 , 'news/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1556359520 , 1556359520) [ RunTime:0.001000s ]
+[ 2019-04-27T18:06:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T18:06:57+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T18:06:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ 2019-04-27T18:06:57+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T18:06:57+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.004001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T18:06:57+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'news' [ RunTime:0.001000s ]
+[ 2019-04-27T18:06:57+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_news' [ RunTime:0.002000s ]
+[ 2019-04-27T18:07:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T18:07:18+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T18:07:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009000s ]
+[ 2019-04-27T18:07:18+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T18:07:18+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T18:07:18+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'news' [ RunTime:0.002000s ]
+[ 2019-04-27T18:07:18+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'gc_news' [ RunTime:0.002000s ]
+[ 2019-04-27T18:07:18+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'gong_cheng' AND table_name = 'gc_news' ORDER BY ORDINAL_POSITION [ RunTime:0.015001s ]
+[ 2019-04-27T18:07:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2019-04-27T18:07:19+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-04-27T18:07:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009001s ]
+[ 2019-04-27T18:07:19+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-04-27T18:07:19+08:00 ][ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\admin\lang/zh-cn.php
+[ 2019-04-27T18:07:19+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ 2019-04-27T18:07:19+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `gc_auth_rule` [ RunTime:0.015001s ]
+[ 2019-04-27T18:07:19+08:00 ][ sql ] [ SQL ] SELECT * FROM `gc_auth_rule` WHERE  `name` = 'news' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T18:07:19+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'news/index' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T18:07:19+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'news/add' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T18:07:19+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'news/edit' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T18:07:19+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'news/del' LIMIT 1 [ RunTime:0.000000s ]
+[ 2019-04-27T18:07:19+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `gc_auth_rule` WHERE  `name` = 'news/multi' LIMIT 1 [ RunTime:0.001000s ]
+[ 2019-04-27T18:07:19+08:00 ][ sql ] [ SQL ] UPDATE `gc_auth_rule`  SET `pid`=170,`name`='news/index',`icon`='fa fa-circle-o',`title`='查看',`ismenu`=0,`status`='normal',`updatetime`=1556359639  WHERE  `id` = 171 [ RunTime:0.001000s ]
+[ 2019-04-27T18:07:19+08:00 ][ sql ] [ SQL ] UPDATE `gc_auth_rule`  SET `pid`=170,`name`='news/add',`icon`='fa fa-circle-o',`title`='添加',`ismenu`=0,`status`='normal',`updatetime`=1556359639  WHERE  `id` = 172 [ RunTime:0.000000s ]
+[ 2019-04-27T18:07:19+08:00 ][ sql ] [ SQL ] UPDATE `gc_auth_rule`  SET `pid`=170,`name`='news/edit',`icon`='fa fa-circle-o',`title`='编辑',`ismenu`=0,`status`='normal',`updatetime`=1556359639  WHERE  `id` = 173 [ RunTime:0.000000s ]
+[ 2019-04-27T18:07:19+08:00 ][ sql ] [ SQL ] UPDATE `gc_auth_rule`  SET `pid`=170,`name`='news/del',`icon`='fa fa-circle-o',`title`='删除',`ismenu`=0,`status`='normal',`updatetime`=1556359639  WHERE  `id` = 174 [ RunTime:0.000000s ]
+[ 2019-04-27T18:07:19+08:00 ][ sql ] [ SQL ] UPDATE `gc_auth_rule`  SET `pid`=170,`name`='news/multi',`icon`='fa fa-circle-o',`title`='批量更新',`ismenu`=0,`status`='normal',`updatetime`=1556359639  WHERE  `id` = 175 [ RunTime:0.000000s ]

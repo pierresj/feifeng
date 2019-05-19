@@ -1,0 +1,82 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('User_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-user_id" data-rule="required" data-source="user/user/index" data-field="nickname" class="form-control selectpage form-control" name="row[user_id]" type="text" value="{$row.user_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-type" data-rule="required" class="form-control form-control" name="row[type]" type="text" value="{$row.type}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('F_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-f_id" data-rule="required" data-source="f/index" class="form-control selectpage form-control" name="row[f_id]" type="text" value="{$row.f_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Amount')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-amount" data-rule="required" class="form-control form-control" step="0.01" name="row[amount]" type="number" value="{$row.amount}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Add_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-add_time" data-rule="required" class="form-control datetimepicker form-control" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[add_time]" type="text" value="{$row.add_time|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Paid_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-paid_time" data-rule="required" class="form-control datetimepicker form-control" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[paid_time]" type="text" value="{$row.paid_time|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('User_note')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-user_note" data-rule="required" class="form-control form-control" name="row[user_note]" type="text" value="{$row.user_note}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Process_type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-process_type" data-rule="required" class="form-control form-control" name="row[process_type]" type="number" value="{$row.process_type}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Trade_no')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-trade_no" data-rule="required" class="form-control form-control" name="row[trade_no]" type="text" value="{$row.trade_no}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Prepay_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-prepay_id" data-rule="required" data-source="prepay/index" class="form-control selectpage form-control" name="row[prepay_id]" type="text" value="{$row.prepay_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Is_paid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-is_paid" data-rule="required" class="form-control form-control" name="row[is_paid]" type="number" value="{$row.is_paid}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Day')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-day" data-rule="required" class="form-control form-control" name="row[day]" type="number" value="{$row.day}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

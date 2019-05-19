@@ -1,0 +1,38 @@
+---------------------------------------------------------------
+[ 2019-05-04T09:49:13+08:00 ] 127.0.0.1 POST /public/api/news/index
+[ info ] bee.me/public/api/news/index [运行时间：0.390022s][吞吐率：2.56req/s] [内存消耗：2,672.97kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010001s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => '95146902-36f3-4039-ab15-9feb33e379a8',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'page' => '2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ RUN ] app\api\controller\News->index[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_news` [ RunTime:0.060003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_news` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.063004s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_news` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.015000s ]

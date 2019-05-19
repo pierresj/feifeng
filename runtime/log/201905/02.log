@@ -1,0 +1,292 @@
+---------------------------------------------------------------
+[ 2019-05-02T09:24:56+08:00 ] 127.0.0.1 POST /public/api/user/register?username=%E7%9F%B3%E6%99%8B&password=123456&confirm_password=1234567&mobile=17635708936&role=1
+[ info ] bee.me/public/api/user/register?username=%E7%9F%B3%E6%99%8B&password=123456&confirm_password=1234567&mobile=17635708936&role=1 [运行时间：0.148008s][吞吐率：6.76req/s] [内存消耗：1,964.20kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011001s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => 'e0a6817e-97a1-45f0-ae02-bdf0169d94cf',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'username' => '石晋',
+  'password' => '123456',
+  'confirm_password' => '1234567',
+  'mobile' => '17635708936',
+  'role' => '1',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->register[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-02T09:25:05+08:00 ] 127.0.0.1 POST /public/api/user/register?username=%E7%9F%B3%E6%99%8B1&password=123456&confirm_password=123456&mobile=17635708936&role=1
+[ info ] bee.me/public/api/user/register?username=%E7%9F%B3%E6%99%8B1&password=123456&confirm_password=123456&mobile=17635708936&role=1 [运行时间：0.181011s][吞吐率：5.52req/s] [内存消耗：2,585.88kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007001s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => 'cfb2d8dd-28d5-450b-a4c7-cf2aaeab1646',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'username' => '石晋1',
+  'password' => '123456',
+  'confirm_password' => '123456',
+  'mobile' => '17635708936',
+  'role' => '1',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->register[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_user` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_user` WHERE  `username` = '石晋1' LIMIT 1 [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_user` WHERE  `mobile` = '17635708936' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-05-02T09:25:15+08:00 ] 127.0.0.1 POST /public/api/user/register?username=%E7%9F%B3%E6%99%8B1&password=123456&confirm_password=123456&mobile=13453157350&role=1
+[ info ] bee.me/public/api/user/register?username=%E7%9F%B3%E6%99%8B1&password=123456&confirm_password=123456&mobile=13453157350&role=1 [运行时间：0.307018s][吞吐率：3.26req/s] [内存消耗：2,633.74kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => '33eb35c2-feee-4a81-9c20-da0cce11cdc3',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'username' => '石晋1',
+  'password' => '123456',
+  'confirm_password' => '123456',
+  'mobile' => '13453157350',
+  'role' => '1',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->register[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_user` [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_user` WHERE  `username` = '石晋1' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_user` WHERE  `mobile` = '13453157350' LIMIT 1 [ RunTime:0.002000s ]
+[ error ] [0]数据表字段不存在:[confirm_password][C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\library\think\db\Builder.php:111]
+---------------------------------------------------------------
+[ 2019-05-02T09:25:30+08:00 ] 127.0.0.1 POST /public/api/user/register?username=%E7%9F%B3%E6%99%8B1&password=123456&mobile=13453157350&role=1
+[ info ] bee.me/public/api/user/register?username=%E7%9F%B3%E6%99%8B1&password=123456&mobile=13453157350&role=1 [运行时间：0.163009s][吞吐率：6.13req/s] [内存消耗：1,998.27kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => '408ebeeb-cee7-4049-80fa-8a41e979c9b2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'username' => '石晋1',
+  'password' => '123456',
+  'mobile' => '13453157350',
+  'role' => '1',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->register[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: confirm_password[C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\User.php:116]
+---------------------------------------------------------------
+[ 2019-05-02T09:25:48+08:00 ] 127.0.0.1 POST /public/api/user/register?username=%E7%9F%B3%E6%99%8B1&password=123456&mobile=13453157350&role=1
+[ info ] bee.me/public/api/user/register?username=%E7%9F%B3%E6%99%8B1&password=123456&mobile=13453157350&role=1 [运行时间：1.134065s][吞吐率：0.88req/s] [内存消耗：2,888.75kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010001s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => '30020490-2499-4e98-a6f1-25e5b59d3c3c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'username' => '石晋1',
+  'password' => '123456',
+  'mobile' => '13453157350',
+  'role' => '1',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->register[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ BEHAVIOR ] Run \addons\alisms\Alisms @sms_notice [ RunTime:0.088005s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_user` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_user` WHERE  `username` = '石晋1' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_user` WHERE  `mobile` = '13453157350' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `gc_user` (`username` , `password` , `mobile` , `role` , `salt` , `jointime` , `joinip` , `logintime` , `loginip` , `prevtime` , `status` , `createtime` , `updatetime`) VALUES ('石晋1' , '5595f8387b035b3a585720ba2e90a175' , '13453157350' , 1 , 'qgaAwR' , 1556760347 , '127.0.0.1' , 1556760347 , '127.0.0.1' , 1556760347 , 'normal' , 1556760347 , 1556760347) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_user` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_user_token` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] INSERT INTO `gc_user_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('88d18be3b42269eb7a6579784cf6c0037447038d' , 39 , 1556760347 , 1559352347) [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_user_token` WHERE  `token` = '88d18be3b42269eb7a6579784cf6c0037447038d' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `value` FROM `gc_config` WHERE  `group` = 'weapp'  AND `name` = 'contact_phone' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-05-02T12:39:16+08:00 ] 127.0.0.1 POST /public/api/product/producttype
+[ info ] bee.me/public/api/product/producttype [运行时间：0.217013s][吞吐率：4.61req/s] [内存消耗：2,531.65kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'product',
+    2 => 'producttype',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => '606a6bc8-ec2f-415d-be8e-50b1c6f92ff2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006001s ]
+[ info ] [ RUN ] app\api\controller\Product->producttype[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_product_type` [ RunTime:0.062003s ]
+[ sql ] [ SQL ] SELECT `id`,`type_name` FROM `gc_product_type` WHERE  `is_delete` = 0 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-05-02T12:44:25+08:00 ] 127.0.0.1 POST /public/api/product/index
+[ info ] bee.me/public/api/product/index [运行时间：0.520030s][吞吐率：1.92req/s] [内存消耗：2,776.30kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010001s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'product',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '264',
+  'content-type' => 'multipart/form-data; boundary=--------------------------012915544022871731485281',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => 'a6828c14-58d2-4fca-a72e-6cfd63c55a20',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'type' => '1',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007000s ]
+[ info ] [ RUN ] app\api\controller\Product->index[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_product` [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_product_company` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_product_type` [ RunTime:0.019002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_product` `product` LEFT JOIN `gc_product_company` `company` ON `product`.`company_id`=`company`.`id` LEFT JOIN `gc_product_type` `type` ON `product`.`type_id`=`type`.`id` WHERE  `company`.`status` = 1  AND `product`.`type_id` = '1' LIMIT 1 [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT `product`.`id`,`product`.`company_id`,`product`.`product_name`,`product`.`type_id`,`product`.`product_standard`,`product`.`product_price`,`product`.`content`,`product`.`product_images`,`product`.`create_time`,`product`.`update_time`,`product`.`delete_time`,`product`.`is_delete`,company.id AS company__id,company.company_name AS company__company_name,company.phone AS company__phone,company.province AS company__province,company.city AS company__city,company.district AS company__district,company.address AS company__address,company.status AS company__status,company.is_delete AS company__is_delete,type.id AS type__id,type.type_name AS type__type_name,type.is_delete AS type__is_delete FROM `gc_product` `product` LEFT JOIN `gc_product_company` `company` ON `product`.`company_id`=`company`.`id` LEFT JOIN `gc_product_type` `type` ON `product`.`type_id`=`type`.`id` WHERE  `company`.`status` = 1  AND `product`.`type_id` = '1' LIMIT 0,10 [ RunTime:0.001000s ]

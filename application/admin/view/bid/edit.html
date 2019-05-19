@@ -1,0 +1,131 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-type" class="form-control selectpicker" name="row[type]">
+                <option value="labour" {if condition="$row.type == 'labour'"}selected{/if}>劳务</option>
+                <option value="cargo" {if condition="$row.type == 'cargo'"}selected{/if}>货物</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" data-rule="required" class="form-control form-control" name="row[name]" type="text" value="{$row.name}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Budget')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-budget" data-rule="required" class="form-control form-control" step="0.01" name="row[budget]" type="number" value="{$row.budget}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Pay_way')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-pay_way" data-rule="required" class="form-control form-control" name="row[pay_way]" type="text" value="{$row.pay_way}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Start_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-start_time" data-rule="required" class="form-control datetimepicker form-control" data-date-format="YYYY-MM-DD" data-use-current="true" name="row[start_time]" type="text" value="{$row.start_time|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('End_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-end_time" data-rule="required" class="form-control datetimepicker form-control" data-date-format="YYYY-MM-DD" data-use-current="true" name="row[end_time]" type="text" value="{$row.end_time|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Bid_start_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-bid_start_time" data-rule="required" class="form-control datetimepicker form-control" data-date-format="YYYY-MM-DD" data-use-current="true" name="row[bid_start_time]" type="text" value="{$row.bid_start_time|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Bid_end_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-bid_end_time" data-rule="required" class="form-control datetimepicker form-control" data-date-format="YYYY-MM-DD" data-use-current="true" name="row[bid_end_time]" type="text" value="{$row.bid_end_time|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Phone')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-phone" data-rule="required" class="form-control form-control" name="row[phone]" type="text" value="{$row.phone}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Can_contact_start_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-can_contact_start_time" data-rule="required" class="form-control form-control" name="row[can_contact_start_time]" type="text" value="{$row.can_contact_start_time}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Can_contact_end_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-can_contact_end_time" data-rule="required" class="form-control form-control" name="row[can_contact_end_time]" type="text" value="{$row.can_contact_end_time}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Province')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-province" data-rule="required" class="form-control form-control" name="row[province]" type="text" value="{$row.province}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('City')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-city" data-rule="required" class="form-control form-control" name="row[city]" type="text" value="{$row.city}">
+<!--            <div class='control-relative'><input id="c-city" data-rule="required" class="form-control form-control" data-toggle="city-picker" name="row[city]" type="text" value="{$row.city}"></div>-->
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Bid_content')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-bid_content" data-rule="required" class="form-control [content,demand] form-control" rows="5" name="row[bid_content]" cols="50">{$row.bid_content}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-status" class="form-control selectpicker" name="row[status]">
+                <option value="0" {if condition="$row.status == 0"}selected{/if}>未审核</option>
+                <option value="1" {if condition="$row.status == 1"}selected{/if}>已审核</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Worker_demand')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-worker_demand" data-rule="required" class="form-control  form-control" rows="5" name="row[worker_demand]" cols="50">{$row.worker_demand}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Build_demand')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-build_demand" data-rule="required" class="form-control  form-control" rows="5" name="row[build_demand]" cols="50">{$row.build_demand}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Cargo_demand')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-cargo_demand" data-rule="required" class="form-control  form-control" rows="5" name="row[cargo_demand]" cols="50">{$row.cargo_demand}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('See_pay')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-see_pay" data-rule="required" class="form-control form-control" step="0.01" name="row[see_pay]" type="number" value="{$row.see_pay}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

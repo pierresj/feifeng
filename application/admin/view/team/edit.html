@@ -1,0 +1,110 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Leader_name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-leader_name" class="form-control form-control" name="row[leader_name]" type="text" value="{$row.leader_name}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Phone')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-phone" class="form-control form-control" name="row[phone]" type="text" value="{$row.phone}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Member_num')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-member_num" class="form-control form-control" name="row[member_num]" type="number" value="{$row.member_num}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Experience_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            {:Form::checkboxs('row[experience_id][]', $experience_arr, $row['experience_id'], ['data-rule'=>'required', 'class'=>['form-control', 'form-control']])}
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">焊工带证人数:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-han_gong_num_with_card" class="form-control form-control" name="row[han_gong_num_with_card]" type="number" value="{$row.han_gong_num_with_card}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">电工带证人数:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-dian_gong_num_with_card" class="form-control form-control" name="row[dian_gong_num_with_card]" type="number" value="{$row.dian_gong_num_with_card}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Is_insurance')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select  id="c-is_insurance" class="form-control selectpicker" name="row[is_insurance]">
+                <option value="0" {if condition="$row.is_insurance == 0"}selected{/if}>无</option>
+                <option value="1" {if condition="$row.is_insurance == 1"}selected{/if}>有</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">状态:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-status" class="form-control selectpicker" name="row[status]">
+                <option value="0" {if condition="$row.status == 0"}selected{/if}>启用</option>
+                <option value="1" {if condition="$row.status == 1"}selected{/if}>禁用</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Experience_desc')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-experience_desc" class="form-control  form-control" rows="5" name="row[experience_desc]" cols="50">{$row.experience_desc}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Avatar')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-avatar" class="form-control form-control" size="50" name="row[avatar]" type="text" value="{$row.avatar}">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-avatar" class="btn btn-danger plupload" data-input-id="c-avatar" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-avatar"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-avatar" class="btn btn-primary fachoose" data-input-id="c-avatar" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-avatar"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-avatar"></ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Id_card_image')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-id_card_image" class="form-control form-control" size="50" name="row[id_card_image]" type="text" value="{$row.id_card_image}">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-id_card_image" class="btn btn-danger plupload" data-input-id="c-id_card_image" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-id_card_image"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-id_card_image" class="btn btn-primary fachoose" data-input-id="c-id_card_image" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-id_card_image"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-id_card_image"></ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Province')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-province" class="form-control form-control" name="row[province]" type="text" value="{$row.province}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('City')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-city" class="form-control form-control" name="row[city]" type="text" value="{$row.city}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

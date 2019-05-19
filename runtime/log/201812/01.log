@@ -1,0 +1,608 @@
+---------------------------------------------------------------
+[ 2018-12-01T00:28:39+08:00 ] 111.175.48.22 HEAD /
+[ info ] sstd.sxxslwl.com/ [运行时间：0.298513s][吞吐率：3.35req/s] [内存消耗：1,659.89kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000631s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003983s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'sstd.sxxslwl.com',
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T02:05:17+08:00 ] 216.218.206.68 GET /
+[ info ] 47.94.91.189/ [运行时间：0.100203s][吞吐率：9.98req/s] [内存消耗：1,659.13kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000649s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003474s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.91.189',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T02:26:06+08:00 ] 222.186.190.20 GET /
+[ info ] 47.94.91.189/ [运行时间：0.225201s][吞吐率：4.44req/s] [内存消耗：1,660.94kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000396s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004238s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.91.189',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'https://47.94.91.189',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T03:10:54+08:00 ] 140.205.205.25 HEAD /
+[ info ] laowu.weitongtianxia.cn:443/ [运行时间：0.101758s][吞吐率：9.83req/s] [内存消耗：1,660.09kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000667s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003555s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => 'laowu.weitongtianxia.cn:443',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T05:23:05+08:00 ] 222.186.190.20 GET /
+[ info ] 47.94.91.189/ [运行时间：0.298164s][吞吐率：3.35req/s] [内存消耗：1,660.94kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000895s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004401s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.91.189',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'https://47.94.91.189',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T05:23:06+08:00 ] 222.186.190.20 GET /
+[ info ] 47.94.91.189/ [运行时间：0.017738s][吞吐率：56.38req/s] [内存消耗：1,660.94kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000060s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001283s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.91.189',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'https://47.94.91.189',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T06:11:18+08:00 ] 185.53.91.23 GET /
+[ info ] 47.94.91.189/ [运行时间：0.097428s][吞吐率：10.26req/s] [内存消耗：1,659.61kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000617s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.064276s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => '47.94.91.189',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T08:44:17+08:00 ] 60.191.38.77 GET /
+[ info ] 47.94.91.189:443/ [运行时间：0.204769s][吞吐率：4.88req/s] [内存消耗：1,660.53kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000388s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004506s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '47.94.91.189:443',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T08:50:45+08:00 ] 183.60.210.52 GET /
+[ info ] 47.94.91.189/ [运行时间：0.047716s][吞吐率：20.96req/s] [内存消耗：1,660.94kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000688s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002652s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.91.189',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'https://47.94.91.189',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T15:19:19+08:00 ] 181.48.9.82 GET /admin//config.php
+[ info ] 47.94.91.189/admin//config.php [运行时间：0.298239s][吞吐率：3.35req/s] [内存消耗：1,958.20kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000446s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.113008s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '47.94.91.189',
+  'user-agent' => 'curl/7.29.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004218s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T15:54:45+08:00 ] 222.186.190.20 GET /
+[ info ] 47.94.91.189/ [运行时间：0.290333s][吞吐率：3.44req/s] [内存消耗：1,660.94kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000377s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004140s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.94.91.189',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'referer' => 'https://47.94.91.189',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T17:03:04+08:00 ] 219.140.123.127 HEAD /
+[ info ] hxc.sxxslwl.com/ [运行时间：0.284827s][吞吐率：3.51req/s] [内存消耗：1,659.84kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000392s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004231s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'hxc.sxxslwl.com',
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T18:10:22+08:00 ] 119.29.130.185 GET /otn/login/init
+[ info ] kyfw.12306.cn/otn/login/init [运行时间：0.197844s][吞吐率：5.05req/s] [内存消耗：1,666.20kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001479s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003210s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'otn',
+    1 => 'login',
+    2 => 'init',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://kyfw.12306.cn/otn/leftTicket/init',
+  'connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; WOW64; Trident/4.0; SLCC1)',
+  'host' => 'kyfw.12306.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T18:10:38+08:00 ] 120.26.192.253 GET /otsmobile/app/mgs/mgw.htm?operationType=com.cars.otsmobile.queryLeftTicket&requestData=%5B%7B%22train_date%22%3A%2220181211%22%2C%22purpose_codes%22%3A%2200%22%2C%22from_station%22%3A%22PIJ%22%2C%22to_station%22%3A%22POJ%22%2C%22station_train_code%22%3A%22%22%2C%22start_time_begin%22%3A%220000%22%2C%22start_time_end%22%3A%222400%22%2C%22train_headers%22%3A%22QB%23%22%2C%22train_flag%22%3A%22%22%2C%22seat_type%22%3A%22%22%2C%22seatBack_Type%22%3A%22%22%2C%22ticket_num%22%3A%22%22%2C%22dfpStr%22%3A%22%22%2C%22baseDTO%22%3A%7B%22check_code%22%3A%2299bfa4ea8606c962020f87e5b94f5efd%22%2C%22device_no%22%3A%228b53d930c1d15875%22%2C%22mobile_no%22%3A%22%22%2C%22os_type%22%3A%22a%22%2C%22time_str%22%3A%2220181201181038%22%2C%22user_name%22%3A%22%22%2C%22version_no%22%3A%224.1.9%22%7D%7D%5D&ts=1543659038286&sign=
+[ info ] mobile.12306.cn/otsmobile/app/mgs/mgw.htm?operationType=com.cars.otsmobile.queryLeftTicket&requestData=%5B%7B%22train_date%22%3A%2220181211%22%2C%22purpose_codes%22%3A%2200%22%2C%22from_station%22%3A%22PIJ%22%2C%22to_station%22%3A%22POJ%22%2C%22station_train_code%22%3A%22%22%2C%22start_time_begin%22%3A%220000%22%2C%22start_time_end%22%3A%222400%22%2C%22train_headers%22%3A%22QB%23%22%2C%22train_flag%22%3A%22%22%2C%22seat_type%22%3A%22%22%2C%22seatBack_Type%22%3A%22%22%2C%22ticket_num%22%3A%22%22%2C%22dfpStr%22%3A%22%22%2C%22baseDTO%22%3A%7B%22check_code%22%3A%2299bfa4ea8606c962020f87e5b94f5efd%22%2C%22device_no%22%3A%228b53d930c1d15875%22%2C%22mobile_no%22%3A%22%22%2C%22os_type%22%3A%22a%22%2C%22time_str%22%3A%2220181201181038%22%2C%22user_name%22%3A%22%22%2C%22version_no%22%3A%224.1.9%22%7D%7D%5D&ts=1543659038286&sign= [运行时间：0.020833s][吞吐率：48.00req/s] [内存消耗：1,675.35kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000264s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001327s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'otsmobile',
+    1 => 'app',
+    2 => 'mgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'workspaceid' => 'product',
+  'trackerid' => '',
+  'signtype' => '0',
+  'riskudid' => '59d19425-f551-11e8-aba6-000000000000',
+  'platform' => 'ANDROID',
+  'did' => '8b53d930c1d15875',
+  'appid' => '9101430221728, 9101430221728',
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => 'mobile.12306.cn',
+)
+[ info ] [ PARAM ] array (
+  'operationType' => 'com.cars.otsmobile.queryLeftTicket',
+  'requestData' => '[{"train_date":"20181211","purpose_codes":"00","from_station":"PIJ","to_station":"POJ","station_train_code":"","start_time_begin":"0000","start_time_end":"2400","train_headers":"QB#","train_flag":"","seat_type":"","seatBack_Type":"","ticket_num":"","dfpStr":"","baseDTO":{"check_code":"99bfa4ea8606c962020f87e5b94f5efd","device_no":"8b53d930c1d15875","mobile_no":"","os_type":"a","time_str":"20181201181038","user_name":"","version_no":"4.1.9"}}]',
+  'ts' => '1543659038286',
+  'sign' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T18:10:38+08:00 ] 120.26.192.253 POST /otsmobile/app/mgs/mgw.htm
+[ info ] mobile.12306.cn/otsmobile/app/mgs/mgw.htm [运行时间：0.021176s][吞吐率：47.22req/s] [内存消耗：1,647.81kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000253s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001343s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'otsmobile',
+    1 => 'app',
+    2 => 'mgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'workspaceid' => 'product',
+  'version' => '2',
+  'ts' => 'MTfFwRe',
+  'signtype' => '0',
+  'sign' => '679959173bf6cf7b05f30d240d0857ee',
+  'riskudid' => '59e8fa10-f551-11e8-aba9-000000000000',
+  'platform' => 'ANDROID',
+  'operation-type' => 'com.cars.otsmobile.login',
+  'did' => 'AABeJgAAiA0zMP//UcwAAMUB',
+  'appid' => '9101430221728, 9101430221728',
+  'accept-language' => 'zh-Hans',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'android',
+  'host' => 'mobile.12306.cn',
+  'content-type' => 'application/json',
+  'content-length' => '297',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T18:10:38+08:00 ] 120.26.192.253 POST /otsmobile/app/mgs/mgw.htm
+[ info ] mobile.12306.cn/otsmobile/app/mgs/mgw.htm [运行时间：0.021135s][吞吐率：47.32req/s] [内存消耗：1,647.81kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000255s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001356s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'otsmobile',
+    1 => 'app',
+    2 => 'mgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'workspaceid' => 'product',
+  'version' => '2',
+  'ts' => 'MTfFwTy',
+  'signtype' => '0',
+  'sign' => '4ff5b4846d0a760e8ed86f1850fd506a',
+  'riskudid' => '59e8fa10-f551-11e8-aba9-000000000000',
+  'platform' => 'ANDROID',
+  'operation-type' => 'com.cars.otsmobile.login',
+  'did' => 'AABeJgAAiA0zMP//UcwAAMUB',
+  'appid' => '9101430221728, 9101430221728',
+  'accept-language' => 'zh-Hans',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'android',
+  'host' => 'mobile.12306.cn',
+  'content-type' => 'application/json',
+  'content-length' => '297',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T18:10:39+08:00 ] 120.26.192.253 POST /otsmobile/app/mgs/mgw.htm
+[ info ] mobile.12306.cn/otsmobile/app/mgs/mgw.htm [运行时间：0.021260s][吞吐率：47.04req/s] [内存消耗：1,647.81kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000235s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001300s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'otsmobile',
+    1 => 'app',
+    2 => 'mgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'workspaceid' => 'product',
+  'version' => '2',
+  'ts' => 'MTfFwWj',
+  'signtype' => '0',
+  'sign' => 'e3633f9a833b155a42e16fc79e38f246',
+  'riskudid' => '59e8fa10-f551-11e8-aba9-000000000000',
+  'platform' => 'ANDROID',
+  'operation-type' => 'com.cars.otsmobile.login',
+  'did' => 'AABeJgAAiA0zMP//UcwAAMUB',
+  'appid' => '9101430221728, 9101430221728',
+  'accept-language' => 'zh-Hans',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'android',
+  'host' => 'mobile.12306.cn',
+  'content-type' => 'application/json',
+  'content-length' => '297',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T18:10:39+08:00 ] 120.26.192.253 POST /otsmobile/app/mgs/mgw.htm
+[ info ] mobile.12306.cn/otsmobile/app/mgs/mgw.htm [运行时间：0.016934s][吞吐率：59.05req/s] [内存消耗：1,647.81kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001201s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'otsmobile',
+    1 => 'app',
+    2 => 'mgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'workspaceid' => 'product',
+  'version' => '2',
+  'ts' => 'MTfFwZB',
+  'signtype' => '0',
+  'sign' => '993a48929b433bb9e4b3e5fad125f98f',
+  'riskudid' => '59e8fa10-f551-11e8-aba9-000000000000',
+  'platform' => 'ANDROID',
+  'operation-type' => 'com.cars.otsmobile.login',
+  'did' => 'AABeJgAAiA0zMP//UcwAAMUB',
+  'appid' => '9101430221728, 9101430221728',
+  'accept-language' => 'zh-Hans',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'android',
+  'host' => 'mobile.12306.cn',
+  'content-type' => 'application/json',
+  'content-length' => '297',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T18:10:39+08:00 ] 120.26.192.253 POST /otsmobile/app/mgs/mgw.htm
+[ info ] mobile.12306.cn/otsmobile/app/mgs/mgw.htm [运行时间：0.016778s][吞吐率：59.60req/s] [内存消耗：1,647.81kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001177s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'otsmobile',
+    1 => 'app',
+    2 => 'mgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'workspaceid' => 'product',
+  'version' => '2',
+  'ts' => 'MTfFwbn',
+  'signtype' => '0',
+  'sign' => '638923934e0e87317bd35ccd7d0d5767',
+  'riskudid' => '59e8fa10-f551-11e8-aba9-000000000000',
+  'platform' => 'ANDROID',
+  'operation-type' => 'com.cars.otsmobile.login',
+  'did' => 'AABeJgAAiA0zMP//UcwAAMUB',
+  'appid' => '9101430221728, 9101430221728',
+  'accept-language' => 'zh-Hans',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'android',
+  'host' => 'mobile.12306.cn',
+  'content-type' => 'application/json',
+  'content-length' => '297',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-01T18:20:17+08:00 ] 119.29.242.12 POST /pay/payGateway
+[ info ] epay.12306.cn/pay/payGateway [运行时间：0.016489s][吞吐率：60.65req/s] [内存消耗：1,676.11kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001225s ]
+[ info ] [ LANG ] /www/wwwroot/LaowuAdmin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pay',
+    1 => 'payGateway',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'https://kyfw.12306.cn/otn/payOrder/init',
+  'origin' => 'https://kyfw.12306.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; WOW64; Trident/4.0; SLCC1)',
+  'host' => 'epay.12306.cn',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '1987',
+)
+[ info ] [ PARAM ] array (
+  '_json_att' => '',
+  'interfaceName' => 'PAY_SERVLET',
+  'interfaceVersion' => 'PAY_SERVLET',
+  'tranData' => 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iR0JLIj8+CjxQYXlSZXE+PGludGVyZmFjZU5h
+bWU+UEFZX1NFUlZMRVQ8L2ludGVyZmFjZU5hbWU+PGludGVyZmFjZVZlcnNpb24+MS4wPC9pbnRl
+cmZhY2VWZXJzaW9uPjxvcmRlckRhdGU+MjAxODA4MjAxMDE5MDk8L29yZGVyRGF0ZT48b3JkZXJU
+aW1lb3V0RGF0ZT4yMDE4MDgyMDEwNDgyNjwvb3JkZXJUaW1lb3V0RGF0ZT48b3JkZXJJZD4xRUUy
+NTkyNjk5MDAwMTAwMTEwMTkwOTI3Mzwvb3JkZXJJZD48YW1vdW50PjEyMDA8L2Ftb3VudD48YXBw
+SWQ+MDAwMTwvYXBwSWQ+PGN1clR5cGU+MTU2PC9jdXJUeXBlPjxvcmRlclJlbWFyay8+PG1lclVS
+TD5odHRwczovL2t5ZncuMTIzMDYuY24vb3BuL2Vub3RpZnkvZXBheVN0YXR1cz91c2VyX25hbWU9
+ZW1obGJtZG9lVEU1T0RjPSZhbXA7c2VxdWVuY2Vfbm89UlVVeU5Ua3lOams1TUE9PSZhbXA7cGF5
+T3JkZXJJRD1NVVZGTWpVNU1qWTVPVEF3TURFd01ERXhNREU1TURreU56TT0mYW1wO3JlZGlyZWN0
+VVJMPWFIUjBjSE02THk5cmVXWjNMakV5TXpBMkxtTnVMMjkwYmk4dmIzSmtaWEl2WlU1dmRHbG1l
+VUZqZEdsdmJpNWtiejl0WlhSb2IyUTkNCmNYVmxjbmxOZVU5eVpHVnlVM1JoZEdsakpuTmxjWFZs
+Ym1ObFgyNXZQVVZGTWpVNU1qWTVPVEE9JmFtcDtwYXlTdGFydD1NUT09JmFtcDtiYXRjaF9ubz1N
+U009JmFtcDtsb2dpbl9pZD1SUT09JmFtcDt0b3VyX2ZsYWc9WkdNPSZhbXA7cmV0dXJuX3RvdGFs
+PSZhbXA7cmV0dXJuX2Nvc3Q9JmFtcDtvbGRfdGlja2V0X3ByaWNlPSZhbXA7cGF5X21vZGU9JmFt
+cDtjaGFubmVsPVJRPT0mYW1wO2lmX2ZsYWdzPVRpTk9Jdz09PC9tZXJVUkw+PGFwcFVSTD5odHRw
+czovLzEwLjIuMjQwLjIxMjo0NDMvb3BuL2Vub3RpZnkvZXBheU5vdGlmeTwvYXBwVVJMPjxpbm5l
+clVSTD5odHRwOi8vMTAuMi4yMDEuMTkwOjgyMDAvb3Rzd3MvcGF5Q2FsbEJhY2s8L2lubmVyVVJM
+PjxtZXJWQVI+ZW1obGJtZG9lVEU1T0RjNlJUcEZSVEkxT1RJMk9Ua3dPakVqT2pFNk1UZzNOVGd6
+TXpnek1EZzZPam82T2pvNk9tUmpPa1U2TVRwTw0KT2s0NmRVaEtZM2hsTVZOdlIyVlZWU3RCZEhW
+aU5UUlBaMGREUjFWRk9WRktLM2xrVFhOeGIxUnlNWGhvYTJOTlJYSnlRMlZIVXpsag0KV0RkRlJs
+bFpRVEJVZVRwTzwvbWVyVkFSPjx0cmFuc1R5cGU+MDE8L3RyYW5zVHlwZT48L1BheVJlcT4=',
+  'merSignMsg' => 'G85d70Y/ZUubSeqVO3p+cqNj24GRBH8L01yQU/XbZvowXna3NdkEHw7mQtsjI2iKxBqCIe/b89/J
+WFahZEw0bWiO9YtEoSAzfoIjXjWBpupK3aczW4Mqgds4Dqd4/XxbtOJHcQJA0e/61+bmyQ1qUwZT
+EI9dcbXaSsT9vsnBruA=',
+  'appId' => '0001',
+  'transType' => '01',
+)
+[ info ] [ LOG ] INIT File

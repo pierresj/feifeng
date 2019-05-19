@@ -1,0 +1,655 @@
+---------------------------------------------------------------
+[ 2019-04-29T21:56:04+08:00 ] 127.0.0.1 POST /public/api/common/upload
+[ info ] bee.me/public/api/common/upload [运行时间：0.830047s][吞吐率：1.20req/s] [内存消耗：1,948.37kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.035002s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'common',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '781034',
+  'content-type' => 'multipart/form-data; boundary=--------------------------503082594079430918775166',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => 'c22fdc1c-e814-4192-a369-b2aef928356c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.053003s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api/lang/zh-cn/common.php
+[ info ] [ RUN ] app\api\controller\Common->upload[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Common.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-29T21:56:12+08:00 ] 127.0.0.1 POST /public/api/common/upload
+[ info ] bee.me/public/api/common/upload [运行时间：0.100006s][吞吐率：10.00req/s] [内存消耗：1,985.91kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009001s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'common',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '781039',
+  'content-type' => 'multipart/form-data; boundary=--------------------------480415501810254995586705',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => 'a8948a23-2d9b-44d3-95a0-27a49798ccba',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api/lang/zh-cn/common.php
+[ info ] [ RUN ] app\api\controller\Common->upload[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Common.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-29T21:57:16+08:00 ] 127.0.0.1 POST /public/api/common/upload
+[ info ] bee.me/public/api/common/upload [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：1,985.91kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'common',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '296510',
+  'content-type' => 'multipart/form-data; boundary=--------------------------385250434477990020185428',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => '7c586cab-9ba0-4cd5-957a-ea8c93c529e2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api/lang/zh-cn/common.php
+[ info ] [ RUN ] app\api\controller\Common->upload[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Common.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-29T21:58:09+08:00 ] 127.0.0.1 POST /public/api/common/upload
+[ info ] bee.me/public/api/common/upload [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：1,933.82kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'common',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '296510',
+  'content-type' => 'multipart/form-data; boundary=--------------------------624237180810299724905731',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => '2a2aeb6a-22a2-48ef-9f3f-3ea7fa8a0d0a',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api/lang/zh-cn/common.php
+[ info ] [ RUN ] app\api\controller\Common->upload[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Common.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-29T21:58:21+08:00 ] 127.0.0.1 POST /public/api/common/upload
+[ info ] bee.me/public/api/common/upload [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：1,934.96kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'common',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '296509',
+  'content-type' => 'multipart/form-data; boundary=--------------------------080202439137224049732151',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => 'b75db0a9-08ab-441a-8396-584a706b8709',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api/lang/zh-cn/common.php
+[ info ] [ RUN ] app\api\controller\Common->upload[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Common.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-29T21:58:33+08:00 ] 127.0.0.1 POST /public/api/common/upload
+[ info ] bee.me/public/api/common/upload [运行时间：0.252014s][吞吐率：3.97req/s] [内存消耗：2,572.51kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'common',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '296509',
+  'content-type' => 'multipart/form-data; boundary=--------------------------851412795580148699510430',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => '708f95d2-11c9-44ea-bb7e-bbabeb41818f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api/lang/zh-cn/common.php
+[ info ] [ RUN ] app\api\controller\Common->upload[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_attachment` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] INSERT INTO `gc_attachment` (`filesize` , `imagewidth` , `imageheight` , `imagetype` , `mimetype` , `url` , `uploadtime` , `storage` , `sha1` , `createtime` , `updatetime`) VALUES (296299 , '2160' , '3164' , 'png' , 'image/png' , '/uploads/20190429/9b7948a34040012a947b8a3da6573ea4.png' , 1556546312 , 'local' , '349f5d436a8af981a5fbf9d4610c7965cf9460ba' , 1556546313 , 1556546313) [ RunTime:0.034002s ]
+---------------------------------------------------------------
+[ 2019-04-29T22:30:50+08:00 ] 127.0.0.1 POST /public/api/team/create
+[ info ] bee.me/public/api/team/create [运行时间：1.055061s][吞吐率：0.95req/s] [内存消耗：2,794.61kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008001s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'create',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '1675',
+  'content-type' => 'multipart/form-data; boundary=--------------------------775886110049580687455473',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => 'bafc82c5-0e10-4958-93d1-e5d940e2aff1',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'avatar' => '/uploads/20190429/9b7948a34040012a947b8a3da6573ea4.png',
+  'leader_name' => '樱木花道',
+  'phone' => '13453157350',
+  'member_num' => '5',
+  'experience_id' => '32,34,38',
+  'han_gong_num_with_card' => '3',
+  'dian_gong_num_with_card' => '2',
+  'is_insurance' => '1',
+  'province' => '山西省',
+  'city' => '太原市',
+  'district' => '万柏林区',
+  'experience_desc' => '地源热泵，水系统安装，
+侯马阳光青青家园70000平米,600套地源水环系统安装，
+霍州阳光首府地源热泵机房安装70000平米，涡旋模块。',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ RUN ] app\api\controller\Team->create[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Team.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_team` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] INSERT INTO `gc_team` (`avatar` , `leader_name` , `phone` , `member_num` , `experience_id` , `han_gong_num_with_card` , `dian_gong_num_with_card` , `is_insurance` , `province` , `city` , `district` , `experience_desc`) VALUES ('/uploads/20190429/9b7948a34040012a947b8a3da6573ea4.png' , '樱木花道' , '13453157350' , 5 , 32 , 3 , 2 , '1' , '山西省' , '太原市' , '万柏林区' , '地源热泵，水系统安装，\n侯马阳光青青家园70000平米,600套地源水环系统安装，\n霍州阳光首府地源热泵机房安装70000平米，涡旋模块。') [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT `value` FROM `gc_config` WHERE  `group` = 'weapp'  AND `name` = 'contact_phone' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-29T23:42:24+08:00 ] 127.0.0.1 POST /public/api/designer/create
+[ info ] bee.me/public/api/designer/create [运行时间：0.270016s][吞吐率：3.70req/s] [内存消耗：2,829.45kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008001s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'designer',
+    2 => 'create',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '1739',
+  'content-type' => 'multipart/form-data; boundary=--------------------------711119493589547213445628',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => 'dee5edbc-82bd-44d2-8a64-568ef3a61b6d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'avatar' => '/uploads/20190429/9b7948a34040012a947b8a3da6573ea4.png',
+  'designer_name' => '流川枫',
+  'phone' => '17635708936',
+  'province' => '山西省',
+  'city' => '太原市',
+  'district' => '万柏林区',
+  'experience_id' => '32,34,38',
+  'has_card' => '/uploads/20190429/9b7948a34040012a947b8a3da6573ea4.png',
+  'id_card_image' => '/uploads/20190422/0921169c8bb89f5b1e1e7eaca7212eb2.jpg',
+  'experience_desc' => '10年工程经验
+1、2017年山西省人民医院南院空调改造工程，三星空调多联机12000平米
+2、2018阳泉公安局空调工程，三星多联机，15000平米
+3、2017忻州煤运大厦空调，美的多联机，30000平米
+4、2016年山西省图书馆空调工程，麦克维尔多联机，20000平米
+5、2017绿地中央公园售楼多联机，9000平米。',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006001s ]
+[ info ] [ RUN ] app\api\controller\Designer->create[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Designer.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_designer` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] INSERT INTO `gc_designer` (`avatar` , `designer_name` , `phone` , `province` , `city` , `district` , `experience_id` , `has_card` , `id_card_image` , `experience_desc`) VALUES ('/uploads/20190429/9b7948a34040012a947b8a3da6573ea4.png' , '流川枫' , '17635708936' , '山西省' , '太原市' , '万柏林区' , '32,34,38' , '/uploads/20190429/9b7948a34040012a947b8a3da6573ea4.png' , '/uploads/20190422/0921169c8bb89f5b1e1e7eaca7212eb2.jpg' , '10年工程经验\n1、2017年山西省人民医院南院空调改造工程，三星空调多联机12000平米\n2、2018阳泉公安局空调工程，三星多联机，15000平米\n3、2017忻州煤运大厦空调，美的多联机，30000平米\n4、2016年山西省图书馆空调工程，麦克维尔多联机，20000平米\n5、2017绿地中央公园售楼多联机，9000平米。') [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `value` FROM `gc_config` WHERE  `group` = 'weapp'  AND `name` = 'contact_phone' LIMIT 1 [ RunTime:0.002000s ]
+[ error ] [8]未定义数组索引: leader_name[C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Designer.php:46]
+---------------------------------------------------------------
+[ 2019-04-29T23:44:14+08:00 ] 127.0.0.1 POST /public/api/designer/create
+[ info ] bee.me/public/api/designer/create [运行时间：0.589034s][吞吐率：1.70req/s] [内存消耗：2,795.09kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'designer',
+    2 => 'create',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '1739',
+  'content-type' => 'multipart/form-data; boundary=--------------------------118559402149084733280290',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => '034ad94d-5b13-4189-b0a6-1ad2f0522647',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'avatar' => '/uploads/20190429/9b7948a34040012a947b8a3da6573ea4.png',
+  'designer_name' => '流川枫',
+  'phone' => '17635708936',
+  'province' => '山西省',
+  'city' => '太原市',
+  'district' => '万柏林区',
+  'experience_id' => '32,34,38',
+  'has_card' => '/uploads/20190429/9b7948a34040012a947b8a3da6573ea4.png',
+  'id_card_image' => '/uploads/20190422/0921169c8bb89f5b1e1e7eaca7212eb2.jpg',
+  'experience_desc' => '10年工程经验
+1、2017年山西省人民医院南院空调改造工程，三星空调多联机12000平米
+2、2018阳泉公安局空调工程，三星多联机，15000平米
+3、2017忻州煤运大厦空调，美的多联机，30000平米
+4、2016年山西省图书馆空调工程，麦克维尔多联机，20000平米
+5、2017绿地中央公园售楼多联机，9000平米。',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ info ] [ RUN ] app\api\controller\Designer->create[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Designer.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_designer` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] INSERT INTO `gc_designer` (`avatar` , `designer_name` , `phone` , `province` , `city` , `district` , `experience_id` , `has_card` , `id_card_image` , `experience_desc`) VALUES ('/uploads/20190429/9b7948a34040012a947b8a3da6573ea4.png' , '流川枫' , '17635708936' , '山西省' , '太原市' , '万柏林区' , '32,34,38' , '/uploads/20190429/9b7948a34040012a947b8a3da6573ea4.png' , '/uploads/20190422/0921169c8bb89f5b1e1e7eaca7212eb2.jpg' , '10年工程经验\n1、2017年山西省人民医院南院空调改造工程，三星空调多联机12000平米\n2、2018阳泉公安局空调工程，三星多联机，15000平米\n3、2017忻州煤运大厦空调，美的多联机，30000平米\n4、2016年山西省图书馆空调工程，麦克维尔多联机，20000平米\n5、2017绿地中央公园售楼多联机，9000平米。') [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_config` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `value` FROM `gc_config` WHERE  `group` = 'weapp'  AND `name` = 'contact_phone' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-29T23:48:09+08:00 ] 127.0.0.1 POST /public/api/designer/index
+[ info ] bee.me/public/api/designer/index [运行时间：0.390022s][吞吐率：2.56req/s] [内存消耗：2,748.52kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'designer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '169',
+  'content-type' => 'multipart/form-data; boundary=--------------------------511838976728747574471220',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => '7d5bca96-9bfb-42aa-a445-c219a34161a7',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'exprience_id' => '34',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007000s ]
+[ info ] [ RUN ] app\api\controller\Designer->index[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Designer.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_designer` [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_designer` `designer` LEFT JOIN `gc_experience` `experience` ON `designer`.`experience_id`=`experience`.`id` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `designer`.`id`,`designer`.`designer_name`,`designer`.`avatar`,`designer`.`phone`,`designer`.`province`,`designer`.`city`,`designer`.`district`,`designer`.`experience_id`,`designer`.`experience_desc`,`designer`.`has_card`,`designer`.`id_card_image`,`designer`.`status`,`designer`.`see_pay`,`designer`.`create_time`,`designer`.`update_time`,`designer`.`delete_time`,`designer`.`is_delete`,experience.id AS experience__id,experience.experience AS experience__experience,experience.create_time AS experience__create_time,experience.update_time AS experience__update_time,experience.delete_time AS experience__delete_time FROM `gc_designer` `designer` LEFT JOIN `gc_experience` `experience` ON `designer`.`experience_id`=`experience`.`id` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2019-04-29T23:50:54+08:00 ] 127.0.0.1 POST /public/api/designer/index
+[ info ] bee.me/public/api/designer/index [运行时间：0.160009s][吞吐率：6.25req/s] [内存消耗：2,749.70kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'designer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '169',
+  'content-type' => 'multipart/form-data; boundary=--------------------------043289701419311027488137',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => 'dc9373d8-85bc-4a49-a5f0-d773f75c22aa',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'exprience_id' => '34',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\api\controller\Designer->index[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Designer.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_designer` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_designer` `designer` LEFT JOIN `gc_experience` `experience` ON `designer`.`experience_id`=`experience`.`id` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `designer`.`id`,`designer`.`designer_name`,`designer`.`avatar`,`designer`.`phone`,`designer`.`province`,`designer`.`city`,`designer`.`district`,`designer`.`experience_id`,`designer`.`experience_desc`,`designer`.`has_card`,`designer`.`id_card_image`,`designer`.`status`,`designer`.`see_pay`,`designer`.`create_time`,`designer`.`update_time`,`designer`.`delete_time`,`designer`.`is_delete`,experience.id AS experience__id,experience.experience AS experience__experience,experience.create_time AS experience__create_time,experience.update_time AS experience__update_time,experience.delete_time AS experience__delete_time FROM `gc_designer` `designer` LEFT JOIN `gc_experience` `experience` ON `designer`.`experience_id`=`experience`.`id` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-29T23:51:32+08:00 ] 127.0.0.1 POST /public/api/designer/index
+[ info ] bee.me/public/api/designer/index [运行时间：0.145009s][吞吐率：6.90req/s] [内存消耗：2,750.75kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'designer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '170',
+  'content-type' => 'multipart/form-data; boundary=--------------------------070803947848686414660797',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => '7f6e68e9-634a-47db-9313-b0ace0827ba2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'experience_id' => '34',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ RUN ] app\api\controller\Designer->index[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Designer.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_designer` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_designer` `designer` LEFT JOIN `gc_experience` `experience` ON `designer`.`experience_id`=`experience`.`id` WHERE  `status` = 1  AND `experience_id` IN ('34') LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `designer`.`id`,`designer`.`designer_name`,`designer`.`avatar`,`designer`.`phone`,`designer`.`province`,`designer`.`city`,`designer`.`district`,`designer`.`experience_id`,`designer`.`experience_desc`,`designer`.`has_card`,`designer`.`id_card_image`,`designer`.`status`,`designer`.`see_pay`,`designer`.`create_time`,`designer`.`update_time`,`designer`.`delete_time`,`designer`.`is_delete`,experience.id AS experience__id,experience.experience AS experience__experience,experience.create_time AS experience__create_time,experience.update_time AS experience__update_time,experience.delete_time AS experience__delete_time FROM `gc_designer` `designer` LEFT JOIN `gc_experience` `experience` ON `designer`.`experience_id`=`experience`.`id` WHERE  `status` = 1  AND `experience_id` IN ('34') LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-29T23:52:21+08:00 ] 127.0.0.1 POST /public/api/designer/index
+[ info ] bee.me/public/api/designer/index [运行时间：0.128007s][吞吐率：7.81req/s] [内存消耗：2,751.02kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'designer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '170',
+  'content-type' => 'multipart/form-data; boundary=--------------------------697770648882195715187998',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => 'c973cf5a-e81d-48ff-8bd1-02e3dbc9e57b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'experience_id' => '34',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\api\controller\Designer->index[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Designer.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_designer` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_designer` `designer` LEFT JOIN `gc_experience` `experience` ON `designer`.`experience_id`=`experience`.`id` WHERE  `status` = 1  AND `experience_id` LIKE '%34%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `designer`.`id`,`designer`.`designer_name`,`designer`.`avatar`,`designer`.`phone`,`designer`.`province`,`designer`.`city`,`designer`.`district`,`designer`.`experience_id`,`designer`.`experience_desc`,`designer`.`has_card`,`designer`.`id_card_image`,`designer`.`status`,`designer`.`see_pay`,`designer`.`create_time`,`designer`.`update_time`,`designer`.`delete_time`,`designer`.`is_delete`,experience.id AS experience__id,experience.experience AS experience__experience,experience.create_time AS experience__create_time,experience.update_time AS experience__update_time,experience.delete_time AS experience__delete_time FROM `gc_designer` `designer` LEFT JOIN `gc_experience` `experience` ON `designer`.`experience_id`=`experience`.`id` WHERE  `status` = 1  AND `experience_id` LIKE '%34%' LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-29T23:52:54+08:00 ] 127.0.0.1 POST /public/api/designer/index
+[ info ] bee.me/public/api/designer/index [运行时间：0.143009s][吞吐率：6.99req/s] [内存消耗：2,754.14kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006001s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'designer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '170',
+  'content-type' => 'multipart/form-data; boundary=--------------------------644724875280028599872503',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => '589f2ed6-c2d1-4ec8-9354-dc20842a7ec9',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'experience_id' => '34',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\api\controller\Designer->index[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Designer.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_designer` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_designer` `designer` LEFT JOIN `gc_experience` `experience` ON `designer`.`experience_id`=`experience`.`id` WHERE  `status` = 1  AND `experience_id` LIKE '%34%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `designer`.`id`,`designer`.`designer_name`,`designer`.`avatar`,`designer`.`phone`,`designer`.`province`,`designer`.`city`,`designer`.`district`,`designer`.`experience_id`,`designer`.`experience_desc`,`designer`.`has_card`,`designer`.`id_card_image`,`designer`.`status`,`designer`.`see_pay`,`designer`.`create_time`,`designer`.`update_time`,`designer`.`delete_time`,`designer`.`is_delete`,experience.id AS experience__id,experience.experience AS experience__experience,experience.create_time AS experience__create_time,experience.update_time AS experience__update_time,experience.delete_time AS experience__delete_time FROM `gc_designer` `designer` LEFT JOIN `gc_experience` `experience` ON `designer`.`experience_id`=`experience`.`id` WHERE  `status` = 1  AND `experience_id` LIKE '%34%' LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-29T23:54:33+08:00 ] 127.0.0.1 POST /public/api/designer/index
+[ info ] bee.me/public/api/designer/index [运行时间：0.197011s][吞吐率：5.08req/s] [内存消耗：2,755.78kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011001s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'designer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '398',
+  'content-type' => 'multipart/form-data; boundary=--------------------------305464565176787325043928',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => '105b7529-c59b-4b1e-836c-881050e9b3e2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'experience_id' => '34',
+  'province' => '山西省',
+  'city' => '太原市',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\api\controller\Designer->index[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Designer.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_designer` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_designer` `designer` LEFT JOIN `gc_experience` `experience` ON `designer`.`experience_id`=`experience`.`id` WHERE  `status` = 1  AND `experience_id` LIKE '%34%'  AND `province` = '山西省'  AND `city` = '太原市' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `designer`.`id`,`designer`.`designer_name`,`designer`.`avatar`,`designer`.`phone`,`designer`.`province`,`designer`.`city`,`designer`.`district`,`designer`.`experience_id`,`designer`.`experience_desc`,`designer`.`has_card`,`designer`.`id_card_image`,`designer`.`status`,`designer`.`see_pay`,`designer`.`create_time`,`designer`.`update_time`,`designer`.`delete_time`,`designer`.`is_delete`,experience.id AS experience__id,experience.experience AS experience__experience,experience.create_time AS experience__create_time,experience.update_time AS experience__update_time,experience.delete_time AS experience__delete_time FROM `gc_designer` `designer` LEFT JOIN `gc_experience` `experience` ON `designer`.`experience_id`=`experience`.`id` WHERE  `status` = 1  AND `experience_id` LIKE '%34%'  AND `province` = '山西省'  AND `city` = '太原市' LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-29T23:58:29+08:00 ] 127.0.0.1 POST /public/api/designer/index
+[ info ] bee.me/public/api/designer/index [运行时间：0.142008s][吞吐率：7.04req/s] [内存消耗：2,689.41kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007001s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'designer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '398',
+  'content-type' => 'multipart/form-data; boundary=--------------------------251225141229797740762823',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'bee.me',
+  'postman-token' => 'd6291dce-1679-4fbb-bb6e-1926e3040cd1',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.11.0',
+)
+[ info ] [ PARAM ] array (
+  'experience_id' => '34',
+  'province' => '山西省',
+  'city' => '太原市',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ RUN ] app\api\controller\Designer->index[ C:\phpStudy\PHPTutorial\WWW\LaowuAdmin\application\api\controller\Designer.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gong_cheng;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_designer` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gc_designer` WHERE  `status` = 1  AND `experience_id` LIKE '%34%'  AND `province` = '山西省'  AND `city` = '太原市' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_designer` WHERE  `status` = 1  AND `experience_id` LIKE '%34%'  AND `province` = '山西省'  AND `city` = '太原市' LIMIT 0,10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gc_experience` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `gc_experience` WHERE  `id` IN (32,34,38) [ RunTime:0.000000s ]
