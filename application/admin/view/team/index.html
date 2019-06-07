@@ -6,8 +6,8 @@
             <div class="tab-pane fade active in" id="one">
                 <div class="widget-body no-padding">
                     <div id="toolbar" class="toolbar">
-                        {:build_toolbar('refresh,add,edit,del')}
-                        <a href="javascript:;" class="btn btn-danger btn-import {:$auth->check('team/import')?'':'hide'}" title="{:__('Import')}" id="btn-import-file" data-url="ajax/upload" data-mimetype="csv,xls,xlsx" data-multiple="false"><i class="fa fa-upload"></i> {:__('Import')}</a>
+                        {:build_toolbar('refresh,del')}
+                        <a href="javascript:;" class="btn btn-danger btn-import {:$auth->check('team/import')?'':'hide'}" title="{:__('Import')}" id="btn-import-file" data-url="ajax/upload" data-mimetype="csv,xls,xlsx" data-multiple="false" style="display: none"><i class="fa fa-upload"></i> {:__('Import')}</a>
 
                         <div class="dropdown btn-group {:$auth->check('team/multi')?'':'hide'}">
                             <a class="btn btn-primary btn-more dropdown-toggle btn-disabled disabled" data-toggle="dropdown"><i class="fa fa-cog"></i> {:__('More')}</a>

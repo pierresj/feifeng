@@ -36,6 +36,23 @@ class Designer extends Api
         }
     	return $this->success('ok', $list);
     }
+
+    public function my_list($user_id=null){
+        if(empty($user_id)) {
+            return $this->error("缺少参数");
+        }
+
+        $where = [
+            'user_id' => $user_id
+        ];
+
+        $list = \app\admin\model\Designer::where($where)->paginate(10);
+        foreach ($list as &$l) {
+            $l['experience'] = \app\admin\model\Experience::where('id', 'in', $l['experience_id'])->select();
+            $l['avatar'] = config('host_url') . $l['avatar'];
+        }
+        return $this->success('ok', $list);
+    }
 	
 	public function create()
 	{
@@ -59,6 +76,34 @@ class Designer extends Api
 			$this->error('提交失败');
 		}
     }
+
+    public function modify($id, $user_id){
+        $info = \app\admin\model\Designer::where('id', $id)->where('user_id', $user_id)->find();
+        if(empty($info)) {
+            return $this->error("你没有修改权限");
+        }
+
+        $data = request()->param();
+        $result = $this->validate($data,'Designer.modify');
+        if(true !== $result){
+            // 验证失败 输出错误信息
+            return $this->error($result);
+        }
+        $model = new \app\admin\model\Designer();
+        if($model->allowField(true)->where('id', $id)->update($data) !== false){
+//			$phone = Config::where('group','weapp')->where('name', 'contact_phone')->value('value');
+//			$alisms = Alisms::instance();
+//			$res = $alisms->mobile($phone)
+//				->template('SMS_164508758')
+//				->param(['phone' => $data['phone'], 'name' => $data['designer_name']])
+//				->send();
+//			halt($res);
+            return $this->success('提交成功');
+        }else{
+            return $this->error('提交失败');
+        }
+
+    }
 	
 	public function show($id, $user_id=null)
 	{
@@ -81,5 +126,18 @@ class Designer extends Api
         $info['money'] = $money['设计师'];
 
 		$this->success('ok',$info);
+    }
+
+    public function modify_display($id,  $user_id, $is_delete){
+        $info = \app\admin\model\Designer::where('id', $id)->where('user_id', $user_id)->find();
+        if(empty($info)) {
+            return $this->error("你没有修改权限");
+        }
+        $model = new \app\admin\model\Designer();
+        if($model->allowField(true)->where('id', $id)->setField('is_delete', $is_delete) !== false){
+            return $this->success('提交成功');
+        }else{
+            return $this->error('提交失败');
+        }
     }
 }

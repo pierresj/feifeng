@@ -34,6 +34,22 @@ class Team extends Api
         }
     	return $this->success('ok', $list);
     }
+
+    public function my_list($user_id=null){
+        if(empty($user_id)) {
+            return $this->error("缺少参数");
+        }
+        $where = [
+            'user_id' => $user_id
+        ];
+
+        $list = \app\admin\model\Team::where($where)->paginate(10);
+        foreach ($list as &$l) {
+            $l['experience'] = \app\admin\model\Experience::where('id', 'in', $l['experience_id'])->select();
+        }
+
+        return $this->success('ok', $list);
+    }
 	
 	public function create()
 	{
@@ -57,8 +73,30 @@ class Team extends Api
 			$this->error('提交失败');
 		}
     }
-	
-	public function show($id, $user_id=null)
+
+    public function modify($id, $user_id){
+        $info = \app\admin\model\Team::where('id', $id)->where('user_id', $user_id)->find();
+        if(empty($info)) {
+            return $this->error("你没有修改权限");
+        }
+
+        $data = request()->param();
+        $result = $this->validate($data,'Team.modify');
+        if(true !== $result){
+            // 验证失败 输出错误信息
+            return $this->error($result);
+        }
+        $model = new \app\admin\model\Team();
+        if($model->allowField(true)->where('id', $id)->update($data) !== false){
+            return $this->success('提交成功');
+        }else{
+            return $this->error('提交失败');
+        }
+
+    }
+
+
+    public function show($id, $user_id=null)
 	{
 	    $info = \app\admin\model\Team::where('status', 1)->find($id);
 	    $info['experience'] = \app\admin\model\Experience::where('id', 'in', $info['experience_id'])->select();
@@ -78,5 +116,18 @@ class Team extends Api
         $info['money'] = $money['劳务队'];
 
         $this->success('ok',$info);
+    }
+
+    public function modify_display($id,  $user_id, $is_delete){
+        $info = \app\admin\model\Team::where('id', $id)->where('user_id', $user_id)->find();
+        if(empty($info)) {
+            return $this->error("你没有修改权限");
+        }
+        $model = new \app\admin\model\Team();
+        if($model->allowField(true)->where('id', $id)->setField('is_delete', $is_delete) !== false){
+            return $this->success('提交成功');
+        }else{
+            return $this->error('提交失败');
+        }
     }
 }

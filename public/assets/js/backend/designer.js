@@ -31,6 +31,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'city', title: __('City')},
                         {field: 'experience_id', title: __('Experience_id'), cellStyle: function () {return {css: {"max-width": "200px","white-space":"normal"}}}},
                         {field: 'has_card', title: __('Has_card'), formatter: Table.api.formatter.image},
+                        {field: 'card_name', title: __('Card_name')},
                         {field: 'id_card_image', title: __('Id_card_image'), formatter: Table.api.formatter.image},
                         // {field: 'status', title: __('Status'),formatter: function(obj){
                         //         return obj ? '通过' : '未通过';
@@ -39,7 +40,6 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'status', title: '审核通过',formatter:Table.api.formatter.toggle},
                         {field: 'see_pay', title: '付费查看电话', formatter:Table.api.formatter.toggle},
                         {field: 'create_time', title: __('Create_time'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
-                        {field: 'update_time', title: __('Update_time'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate},
                         // {
                         //     field: 'operate',

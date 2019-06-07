@@ -30,5 +30,6 @@ class Designer extends Validate
      */
     protected $scene = [
         'create'  => ['designer_name','phone','member_num','experience_id'],
+        'modify'  => ['designer_name','phone','member_num','experience_id'],
     ];
 }

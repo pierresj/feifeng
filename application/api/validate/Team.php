@@ -32,6 +32,7 @@ class Team extends Validate
      */
     protected $scene = [
         'create'  => ['leader_name','phone','member_num','experience_id'],
+        'modify'  => ['leader_name','phone','member_num','experience_id'],
     ];
     
 }

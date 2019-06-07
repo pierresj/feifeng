@@ -92,8 +92,10 @@ class wxpay{
         $this->param['sign'] = $this->getSign($this->param);
         $result = $this->requrstXml();
 
-        Log::log('pay_result:'.date("YmdHis", time()) . var_export($result, true));
-        Log::log('pay_result:'.date("YmdHis", time()) . var_export($this->param, true));
+        custom_log('pay', var_export($result, true));
+        custom_log('pay', var_export($this->param, true));
+//        Log::log('pay_result:'.date("YmdHis", time()) . var_export($result, true));
+//        Log::log('pay_result:'.date("YmdHis", time()) . var_export($this->param, true));
         return $this->result = $result;
     }
     private function requrstXml(){

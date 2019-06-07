@@ -364,3 +364,22 @@ function cutstr_html($string, $len=null){
     return trim($string);
 
 }
+/**
+ * 写日志文件
+ *2016年12月28日上午10:04:53
+ * @author 285018762@qq.com <飞鱼>
+ * @param unknown $filename
+ * @param string $string
+ */
+function custom_log($filename,$string=null) {
+    $strings = date('Y-m-d H:i:s',time()).'  '.$string."\r";
+    $filename = str_replace('.txt', '', $filename);
+    $real_filename = $filename.'-'.date('Y-m-d').'.log';
+    $dir = rtrim('Log','/').'/';
+    if(!is_dir($dir))
+    {
+        mkdir($dir, 0700);
+    }
+    $path = '/www/wwwroot/laowu/Log/'.$real_filename;
+    file_put_contents($path, $strings,FILE_APPEND);
+}

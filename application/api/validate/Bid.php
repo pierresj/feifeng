@@ -30,5 +30,6 @@ class Bid extends Validate
      */
     protected $scene = [
         'create'  => ['name','phone','pay_way'],
+        'modify'  => ['name','phone','pay_way'],
     ];
 }

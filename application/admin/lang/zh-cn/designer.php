@@ -10,6 +10,7 @@ return [
     'Experience_id'  =>  '经验类型',
     'Experience_desc'  =>  '经验描述',
     'Has_card'  =>  '资质证件',
+    'Card_name'  =>  '证件',
     'Id_card_image'  =>  '身份证正面照',
     'Status' => '审核',
     'Status 0' => '通过',

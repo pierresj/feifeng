@@ -97,24 +97,28 @@
             </select>
         </div>
     </div>
+    {if condition="$row.type == 'labour'"}
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2">{:__('Worker_demand')}:</label>
         <div class="col-xs-12 col-sm-8">
-            <textarea id="c-worker_demand" data-rule="required" class="form-control  form-control" rows="5" name="row[worker_demand]" cols="50">{$row.worker_demand}</textarea>
+            <textarea id="c-worker_demand" class="form-control  form-control" rows="5" name="row[worker_demand]" cols="50">{$row.worker_demand}</textarea>
         </div>
     </div>
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2">{:__('Build_demand')}:</label>
         <div class="col-xs-12 col-sm-8">
-            <textarea id="c-build_demand" data-rule="required" class="form-control  form-control" rows="5" name="row[build_demand]" cols="50">{$row.build_demand}</textarea>
+            <textarea id="c-build_demand" class="form-control  form-control" rows="5" name="row[build_demand]" cols="50">{$row.build_demand}</textarea>
         </div>
     </div>
+    {/if}
+    {if condition="$row.type == 'cargo'"}
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2">{:__('Cargo_demand')}:</label>
         <div class="col-xs-12 col-sm-8">
-            <textarea id="c-cargo_demand" data-rule="required" class="form-control  form-control" rows="5" name="row[cargo_demand]" cols="50">{$row.cargo_demand}</textarea>
+            <textarea id="c-cargo_demand" class="form-control  form-control" rows="5" name="row[cargo_demand]" cols="50">{$row.cargo_demand}</textarea>
         </div>
     </div>
+    {/if}
     <div class="form-group">
         <label class="control-label col-xs-12 col-sm-2">{:__('See_pay')}:</label>
         <div class="col-xs-12 col-sm-8">

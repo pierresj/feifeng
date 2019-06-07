@@ -1,0 +1,94 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('User_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-user_id" data-rule="required" data-source="user/user/index" data-field="nickname" class="form-control selectpage form-control" name="row[user_id]" type="text" value="{$row.user_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Position')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-position" data-rule="required" class="form-control form-control" name="row[position]" type="text" value="{$row.position}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Province')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-province" data-rule="required" class="form-control form-control" name="row[province]" type="text" value="{$row.province}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('City')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class='control-relative'><input id="c-city" data-rule="required" class="form-control form-control" data-toggle="city-picker" name="row[city]" type="text" value="{$row.city}"></div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('District')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-district" data-rule="required" class="form-control form-control" name="row[district]" type="text" value="{$row.district}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Addr')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-addr" data-rule="required" class="form-control form-control" name="row[addr]" type="text" value="{$row.addr}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Wage')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-wage" data-rule="required" class="form-control form-control" name="row[wage]" type="text" value="{$row.wage}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Company')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-company" data-rule="required" class="form-control form-control" name="row[company]" type="text" value="{$row.company}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Company_summary')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-company_summary" data-rule="required" class="form-control  form-control" rows="5" name="row[company_summary]" cols="50">{$row.company_summary}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Position_summary')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-position_summary" data-rule="required" class="form-control  form-control" rows="5" name="row[position_summary]" cols="50">{$row.position_summary}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Tel')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-tel" data-rule="required" class="form-control form-control" name="row[tel]" type="text" value="{$row.tel}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Create_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-create_time" data-rule="required" class="form-control datetimepicker form-control" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_time]" type="text" value="{$row.create_time|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Update_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-update_time" data-rule="required" class="form-control datetimepicker form-control" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[update_time]" type="text" value="{$row.update_time|datetime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Is_delete')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-is_delete" data-rule="required" class="form-control form-control" name="row[is_delete]" type="number" value="{$row.is_delete}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
