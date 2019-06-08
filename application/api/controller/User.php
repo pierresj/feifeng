@@ -16,7 +16,7 @@ use app\common\model\Config;
 class User extends Api
 {
 
-    protected $noNeedLogin = ['login', 'mobilelogin', 'register', 'resetpwd', 'changeemail', 'changemobile', 'third', 'getrole'];
+    protected $noNeedLogin = ['login', 'mobilelogin', 'register', 'resetpwd', 'changeemail', 'changemobile', 'third', 'getrole', 'create', 'improve'];
     protected $noNeedRight = '*';
 
     public function _initialize()
@@ -372,7 +372,68 @@ class User extends Api
      * 用户角色
      */
     public function getrole() {
-        $row = [['id' => 1, 'name' => '需求方'], ['id' => 2, 'name' => '供应方']];
+        $row = [
+            ['id' => 1, 'name' => '需求方'],
+            ['id' => 2, 'name' => '劳务队'],
+            ['id' => 3, 'name' => '设计预算师'],
+            ['id' => 4, 'name' => '设备材料商'],
+            ['id' => 5, 'name' => '其他'],
+        ];
         $this->success('ok', $row);
+    }
+
+    /**
+     * 创建用户
+     */
+    public function create(){
+        $openid = input('openid', '', 'trim');
+        if(empty($openid)) {
+            return $this->error('缺少openid参数');
+        }
+
+        $exist = \app\admin\model\User::where('openid', $openid)->find();
+
+        $nickname = input('nickname', '', 'trim');
+        $nickname = removeEmoji($nickname);
+
+        $head_img = input('head_img', '', 'trim');
+
+        if(empty($exist)) {
+            $input['openid'] = $openid;
+            $input['nickname'] = $nickname;
+            $input['head_img'] = $head_img;
+            $input['createtime'] = time();
+            $input['jointime'] = time();
+            $user = \app\admin\model\User::create($input);
+            $user_id = $user->id;
+            if($user_id) {
+                $user_info = \app\admin\model\User::where('openid', $openid)->find();
+                return $this->success('ok', $user_info);
+            }
+            return $this->error('fail');
+        } else {
+            $update['openid'] = $openid;
+            $update['nickname'] = $nickname;
+            $update['head_img'] = $head_img;
+            \app\admin\model\User::where('openid', $openid)->update($update);
+            return $this->success('ok', $exist);
+        }
+    }
+    /**
+     * 完善个人信息
+     */
+    public function improve(){
+        $user_id = input('user_id', 0, 'intval');
+        if(empty($user_id)) {
+            return $this->error("缺少参数");
+        }
+        $data = request()->param();
+        unset($data['user_id']);
+        $UserModel = new \app\admin\model\User();
+        $re = $UserModel->allowField(true)->where('id', $user_id)->update($data);
+        if($re !== false) {
+            return $this->success('ok');
+        }
+        return $this->error('fail');
     }
 }

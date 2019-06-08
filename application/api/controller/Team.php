@@ -6,6 +6,7 @@ use addons\alisms\library\Alisms;
 use app\common\controller\Api;
 use app\common\library\Sms as Smslib;
 use app\common\model\Config;
+use think\Db;
 
 class Team extends Api
 {
@@ -48,6 +49,22 @@ class Team extends Api
             $l['experience'] = \app\admin\model\Experience::where('id', 'in', $l['experience_id'])->select();
         }
 
+        return $this->success('ok', $list);
+    }
+
+    public function my_paid_list($user_id = null){
+        if(empty($user_id)) {
+            return $this->error("缺少参数");
+        }
+        $list = Db::name('user_echarge')
+            ->alias('e')
+            ->join('team t', 'e.f_id = t.id')
+            ->where('e.type', 'eq', 'team')
+            ->where('e.is_paid', 'eq', 1)
+            ->where('e.user_id', 'eq', $user_id)
+            ->field('t.*')
+            ->order('e.id DESC')
+            ->paginate(10);
         return $this->success('ok', $list);
     }
 	

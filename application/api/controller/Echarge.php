@@ -70,5 +70,7 @@ class Echarge extends Api
             $this->error('fail', 'no_paid');
         }
     }
+
+
 }
 ?>

@@ -53,6 +53,22 @@ class Designer extends Api
         }
         return $this->success('ok', $list);
     }
+
+    public function my_paid_list($user_id = null){
+        if(empty($user_id)) {
+            return $this->error("缺少参数");
+        }
+        $list = Db::name('user_echarge')
+            ->alias('e')
+            ->join('designer d', 'e.f_id = d.id')
+            ->where('e.type', 'eq', 'designer')
+            ->where('is_paid', 'eq', 1)
+            ->where('e.user_id', 'eq', $user_id)
+            ->field('d.*')
+            ->order('e.id DESC')
+            ->paginate(10);
+        return $this->success('ok', $list);
+    }
 	
 	public function create()
 	{

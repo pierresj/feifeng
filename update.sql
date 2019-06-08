@@ -41,3 +41,10 @@ ALTER TABLE `gc_product`
 ALTER TABLE `gc_product`
   ADD COLUMN `status`  tinyint(1) UNSIGNED NOT NULL AFTER `delete_time`;
 
+-- 用户表增加字段
+ALTER TABLE `gc_user`
+  ADD COLUMN `openid`  varchar(100) NOT NULL AFTER `id`;
+ALTER TABLE `gc_user`
+  ADD COLUMN `nicknamme`  varchar(50) NOT NULL AFTER `openid`;
+ALTER TABLE `gc_user`
+  ADD COLUMN `head_img`  varchar(200) NOT NULL AFTER `nicknamme`;
