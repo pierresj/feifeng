@@ -123,13 +123,17 @@ class Designer extends Api
 	
 	public function show($id, $user_id=null)
 	{
-		$info = \app\admin\model\Designer::with('experience')->where('status', 1)->find($id);
+        $info = \app\admin\model\Designer::with('experience')->find($id);
+        if($info['user_id'] != $user_id && $info['is_delete'] == 1) {
+            $this->success('ok', []);
+        }
+//		$info = \app\admin\model\Designer::with('experience')->where('status', 1)->find($id);
         $info['experience'] = \app\admin\model\Experience::where('id', 'in', $info['experience_id'])->select();
 //        $info['avatar'] = config('host_url') . $info['avatar'];
         if($info['see_pay'] == 1) {
             if(empty($user_id)) {
                 $info['phone'] = 0;
-            } elseif ($user_id) {
+            } elseif ($user_id && $user_id != $info['user_id']) {
                 $exist = model('UserEcharge')->exist('designer', $id, $user_id);
                 if(empty($exist)) {
                     $info['phone'] = 0;

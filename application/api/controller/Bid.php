@@ -118,7 +118,7 @@ class Bid extends Api
         if($info['see_pay']*100) {
             if(empty($user_id)) {
                 $info['phone'] = 0;
-            } elseif ($user_id) {
+            } elseif ($user_id && $user_id != $info['user_id']) {
                 $exist = model('UserEcharge')->exist('bid', $id, $user_id);
                 if(empty($exist)) {
                     $info['phone'] = 0;
