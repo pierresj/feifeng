@@ -64,7 +64,7 @@ class Designer extends Api
             ->where('e.type', 'eq', 'designer')
             ->where('is_paid', 'eq', 1)
             ->where('e.user_id', 'eq', $user_id)
-            ->field('d.*')
+            ->field('d.*, e.amount')
             ->order('e.id DESC')
             ->paginate(10);
         return $this->success('ok', $list);
@@ -125,7 +125,7 @@ class Designer extends Api
 	{
 		$info = \app\admin\model\Designer::with('experience')->where('status', 1)->find($id);
         $info['experience'] = \app\admin\model\Experience::where('id', 'in', $info['experience_id'])->select();
-        $info['avatar'] = config('host_url') . $info['avatar'];
+//        $info['avatar'] = config('host_url') . $info['avatar'];
         if($info['see_pay'] == 1) {
             if(empty($user_id)) {
                 $info['phone'] = 0;

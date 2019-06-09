@@ -57,7 +57,7 @@ class Bid extends Api
             ->where('e.type', 'eq', 'bid')
             ->where('e.is_paid', 'eq', 1)
             ->where('e.user_id', 'eq', $user_id)
-            ->field('b.*')
+            ->field('b.*, e.amount')
             ->order('e.id DESC')
             ->paginate(10);
         return $this->success('ok', $list);

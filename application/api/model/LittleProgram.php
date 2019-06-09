@@ -15,6 +15,7 @@ class LittleProgram Extends Model{
     public $errCode;
     public $errMsg;
     public $password = '123698745';
+    public $sessionKey;
 
     public function initialize(){
         //小程序相关信息
@@ -32,6 +33,76 @@ class LittleProgram Extends Model{
         return $wxpay->getJsParameters($order,$openid);
     }
 
+    public function getWxUserInfo($encryptedData=null, $iv=null, $code=null){
+//        $this->appid = config('appId');
+//        $this->appsecret = config('appSecret');
+//        $url = "https://api.weixin.qq.com/sns/jscode2session?appid=" . $this->appid . "&secret=" . $this->appsecret . "&js_code=" . $code . "&grant_type=authorization_code";
+//        $re = https_request($url);
+//        $re = json_decode($re, true);
+//        $this->sessionKey = $re['session_key'];
+
+        $this->appid = "wx4f4bc4dec97d474b";
+        $this->sessionKey = "tiihtNczf5v6AKRyjwEUhQ==";
+        $encryptedData = "CiyLU1Aw2KjvrjMdj8YKliAjtP4gsMZM
+                QmRzooG2xrDcvSnxIMXFufNstNGTyaGS
+                9uT5geRa0W4oTOb1WT7fJlAC+oNPdbB+
+                3hVbJSRgv+4lGOETKUQz6OYStslQ142d
+                NCuabNPGBzlooOmB231qMM85d2/fV6Ch
+                evvXvQP8Hkue1poOFtnEtpyxVLW1zAo6
+                /1Xx1COxFvrc2d7UL/lmHInNlxuacJXw
+                u0fjpXfz/YqYzBIBzD6WUfTIF9GRHpOn
+                /Hz7saL8xz+W//FRAUid1OksQaQx4CMs
+                8LOddcQhULW4ucetDf96JcR3g0gfRK4P
+                C7E/r7Z6xNrXd2UIeorGj5Ef7b1pJAYB
+                6Y5anaHqZ9J6nKEBvB4DnNLIVWSgARns
+                /8wR2SiRS7MNACwTyrGvt9ts8p12PKFd
+                lqYTopNHR1Vf7XjfhQlVsAJdNiKdYmYV
+                oKlaRv85IfVunYzO0IKXsyl7JCUjCpoG
+                20f0a04COwfneQAGGwd5oa+T8yO5hzuy
+                Db/XcxxmK01EpqOyuxINew==";
+        $iv = 'r7BXXKkLb8qrSNn05n0qiA==';
+        $errCode = $this->decryptData($encryptedData, $iv, $data);
+        if ($errCode == 0) {
+            return json_decode($data, true);
+        } else {
+            return $errCode;
+        }
+    }
+    /**
+     * 检验数据的真实性，并且获取解密后的明文.
+     * @param $encryptedData string 加密的用户数据
+     * @param $iv string 与用户数据一同返回的初始向量
+     * @param $data string 解密后的原文
+     *
+     * @return int 成功0，失败返回对应的错误码
+     */
+    public function decryptData($encryptedData, $iv, &$data ){
+        if (strlen($this->sessionKey) != 24) {
+            return "-41001";
+        }
+        $aesKey=base64_decode($this->sessionKey);
+
+        if (strlen($iv) != 24) {
+            return "-41002";
+        }
+        $aesIV=base64_decode($iv);
+
+        $aesCipher=base64_decode($encryptedData);
+
+        $result=openssl_decrypt( $aesCipher, "AES-128-CBC", $aesKey, 1, $aesIV);
+
+        $dataObj=json_decode( $result );
+        if( $dataObj  == NULL ) {
+            return "-41003";
+        }
+        if( $dataObj->watermark->appid != $this->appid ) {
+            return "-41003";
+        }
+        $data = $result;
+        return "0";
+    }
+
+    //以下是旧的
     public function transfers($number,$openid,$amount,$desc){
         $wxpay = new wxpay($this->appid,$this->appsecret,$this->mchid,$this->key);
         $url = "https://api.mch.weixin.qq.com/mmpaymkttransfers/promotion/transfers";
@@ -184,125 +255,6 @@ class LittleProgram Extends Model{
 //                . urlencode($back_url)."&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect" );
             exit;
         }
-    }
-    //获取用户详细信息
-    //$lexer 原样返回的数据
-    public function testGetUserInfo($lexer = 'STATE',$password = "") {
-        if (isset($_REQUEST['code'])) {
-            $code = input('code','','trim');
-            $state = input('state','','trim');
-            $user_access_token_json = https_request("https://api.weixin.qq.com/sns/oauth2/access_token?appid=".$this->appid."&secret=".$this->appsecret."&code=".$code."&grant_type=authorization_code");
-            $user_access_token = json_decode($user_access_token_json,true);
-
-            $user_info_json = https_request("https://api.weixin.qq.com/sns/userinfo?access_token=".$user_access_token['access_token']."&openid=".$user_access_token['openid']."&lang=zh_CN ");
-            $resuult = json_decode($user_info_json,true);
-            cache($code,$resuult,300);
-            $return['lexer'] = $state == 'STATE' ?  "" : base_decodes($state);
-            $return['code'] = $code;
-
-            return $return;
-        } else {
-            if($password != $this->password){
-                exit("请求密码错误");
-            }
-            $back_url = get_url();
-
-            header("Location: https://open.weixin.qq.com/connect/oauth2/authorize?appid=".$this->appid."&redirect_uri="
-                . urlencode($back_url)."&response_type=code&scope=snsapi_userinfo&state=".base_encodes($lexer)."#wechat_redirect" );
-            exit;
-        }
-    }
-    //过滤昵称中的特殊字符
-    private function nickname_filter($str) {
-        if($str){
-            $name = $str;
-            $name = preg_replace('/\xEE[\x80-\xBF][\x80-\xBF]|\xEF[\x81-\x83][\x80-\xBF]/', '', $name);
-            $name = preg_replace('/xE0[x80-x9F][x80-xBF]‘.‘|xED[xA0-xBF][x80-xBF]/S','?', $name);
-            $return = json_decode(preg_replace("#(\\\ud[0-9a-f]{3})#ie","",json_encode($name)));
-            if(!$return){
-                return $str;
-            }
-        }else{
-            $return = '';
-        }
-        return $return;
-    }
-
-    public function getPayCodeTest($id){
-        $info = db('TestPay')->where('id',$id)->find();
-        $order['total_fee'] = $info['amount'];
-        $order['out_trade_no'] = $info['out_trade_no'];
-        $wxpay = new wxpay($this->appid,$this->appsecret,$this->mchid,$this->key);
-        $wxpay->setNotifyUrl("http://api.moments.taoxiansheng.com/payment/little_program_notify_text"); //异步回调地址
-        return  $wxpay->getJsParameters($order,$info['openid']);
-    }
-    /**
-     * 发送模板消息
-     */
-    public function send_notice($uel,$tenpalate_id){
-        //获取access_token
-        $access_token=$this->getAccessToken();
-
-        $openid='o3J-Q0vPPWzJJf9v9vMuAIMoAaBo';//$this->getOpenId();
-
-        //模板消息
-        $json_template = $this->json_tempaltes($openid,$uel,$tenpalate_id);
-        $url='https://api.weixin.qq.com/cgi-bin/message/template/send?access_token='.$access_token;
-        $res=$this->request_post($url,urldecode($json_template));
-
-        if ($res['errcode']==0){
-            return '发送成功';
-        }else{
-            return '发送失败';
-        }
-    }
-    /**
-     * 将模板消息json格式化
-     */
-    public function json_tempalte($openid,$uel,$tenpalate_id,$money=1){
-        //模板消息
-        $template=array(
-            'touser'=>$openid,  //用户openid
-            'template_id'=>'i6fy33wgUcqURp9gaPkavmceKLGz2wmj-1LzBp-_Wds', //在公众号下配置的模板id
-            'url'=>$uel, //点击模板消息会跳转的链接
-            'topcolor'=>"#7B68EE",
-            'data'=>array(
-                'first'=>array('value'=>urlencode("恭喜您，余额已到帐"),'color'=>"#FF0000"),
-                'keyword1'=>array('value'=>urlencode(date("Y-m-d H:i:s")),'color'=>'#FF0000'),
-                'keyword2'=>array('value'=>urlencode($money.'元'),'color'=>'#FF0000'),
-                'keyword3'=>array('value'=>urlencode('查看简历'),'color'=>'#FF0000'),  //keyword需要与配置的模板消息对应
-                'remark' =>array('value'=>urlencode('备注：有人查看您的简历了，快去收钱吧'),'color'=>'#FF0000'), )
-        );
-        $json_template=json_encode($template);
-        return $json_template;
-    }
-    /**
-     * @param $url
-     * @param array $data
-     * @return mixed
-     * curl请求
-     */
-    function request_post($url, $data)
-    {
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
-        if (!empty($data)){
-            curl_setopt($ch, CURLOPT_POST, 1);
-            curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-        }
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        $output = curl_exec($ch);
-        curl_close($ch);
-        return $output;
-    }
-    //查询是否关注
-    public function getSubscribe($openid){
-        $access_token = $this->getAccessToken(false);
-        $url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=".$access_token."&openid=".$openid."&lang=zh_CN";
-        $result = https_request($url);
-        return $result;
     }
     //获取accesstoken
     public function getAccessTokens($refresh = false){ //$status =1 为使用默认access_token   $status =其他为获取新的access_token

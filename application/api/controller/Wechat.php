@@ -54,6 +54,7 @@ class Wechat extends Api
 
         $this->success('ok', $re);
     }
+
 }
 
 

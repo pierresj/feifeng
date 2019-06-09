@@ -62,7 +62,7 @@ class Team extends Api
             ->where('e.type', 'eq', 'team')
             ->where('e.is_paid', 'eq', 1)
             ->where('e.user_id', 'eq', $user_id)
-            ->field('t.*')
+            ->field('t.*, e.amount')
             ->order('e.id DESC')
             ->paginate(10);
         return $this->success('ok', $list);
@@ -115,7 +115,12 @@ class Team extends Api
 
     public function show($id, $user_id=null)
 	{
-	    $info = \app\admin\model\Team::where('status', 1)->find($id);
+        $info = \app\admin\model\Team::find($id);
+        if($info['user_id'] != $user_id && $info['is_delete'] == 1) {
+            $this->success('ok', []);
+        }
+
+//	    $info = \app\admin\model\Team::where('status', 1)->find($id);
 	    $info['experience'] = \app\admin\model\Experience::where('id', 'in', $info['experience_id'])->select();
         if($info['see_pay'] == 1) {
             if(empty($user_id)) {
