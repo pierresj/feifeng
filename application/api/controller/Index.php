@@ -52,8 +52,7 @@ class Index extends Api
         //查询bid
         $bid_list = Db::query("SELECT * FROM `gc_bid` WHERE `status` = 1 AND (`name` LIKE '%{$key}%')");
         //查询product
-        $sql = "SELECT * FROM `gc_product_company` AS `pc`"
-            ." INNER JOIN `gc_product` AS `p` ON `pc`.`id` = `p`.`company_id`"
+        $sql = "SELECT * FROM `gc_product` AS `p`"
             ." INNER JOIN `gc_product_type` AS `pt` ON `pt`.`id` = `p`.`type_id`"
             ." WHERE `status` = 1 AND ( `p`.`product_name` LIKE '{$key}%')";
         $product_list = Db::query($sql);
