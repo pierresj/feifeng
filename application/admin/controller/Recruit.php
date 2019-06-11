@@ -17,6 +17,7 @@ class Recruit extends Backend
      * @var \app\admin\model\Recruit
      */
     protected $model = null;
+    protected $multiFields="is_delete,status";
 
     public function _initialize()
     {
@@ -72,5 +73,39 @@ class Recruit extends Backend
             return json($result);
         }
         return $this->view->fetch();
+    }
+    /**
+     * 批量更新
+     */
+    public function multi($ids = "")
+    {
+        $ids = $ids ? $ids : $this->request->param("ids");
+        if ($ids) {
+            if ($this->request->has('params')) {
+                parse_str($this->request->post("params"), $values);
+                $values = array_intersect_key($values, array_flip(is_array($this->multiFields) ? $this->multiFields : explode(',', $this->multiFields)));
+                if ($values) {
+                    $adminIds = $this->getDataLimitAdminIds();
+                    if (is_array($adminIds)) {
+                        $this->model->where($this->dataLimitField, 'in', $adminIds);
+                    }
+                    $count = 0;
+                    $list = $this->model->where($this->model->getPk(), 'in', $ids)->select();
+                    foreach ($list as $index => $item) {
+//                        print_r($values);
+                        $count += $item->allowField(true)->isUpdate(true)->save($values);
+//                        echo db()->getLastSql();
+                    }
+                    if ($count) {
+                        $this->success();
+                    } else {
+                        $this->error(__('No rows were updated'));
+                    }
+                } else {
+                    $this->error(__('You have no permission'));
+                }
+            }
+        }
+        $this->error(__('Parameter %s can not be empty', 'ids'));
     }
 }

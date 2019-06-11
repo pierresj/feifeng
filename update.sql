@@ -40,6 +40,9 @@ ALTER TABLE `gc_product`
   ADD COLUMN `user_id`  int(10) UNSIGNED NOT NULL AFTER `id`;
 ALTER TABLE `gc_product`
   ADD COLUMN `status`  tinyint(1) UNSIGNED NOT NULL AFTER `delete_time`;
+ALTER TABLE `gc_product`
+  ADD COLUMN `quantifier`  varchar(10) NOT NULL DEFAULT 0 COMMENT '量词' AFTER `product_price`;
+
 
 -- 用户表增加字段
 ALTER TABLE `gc_user`
@@ -48,3 +51,12 @@ ALTER TABLE `gc_user`
   ADD COLUMN `nicknamme`  varchar(50) NOT NULL AFTER `openid`;
 ALTER TABLE `gc_user`
   ADD COLUMN `head_img`  varchar(200) NOT NULL AFTER `nicknamme`;
+
+-- 权限表更新
+INSERT INTO `gong_cheng`.`gc_auth_rule` (`id`, `type`, `pid`, `name`, `title`, `icon`, `condition`, `remark`, `ismenu`, `createtime`, `updatetime`, `weigh`, `status`) VALUES ('224', 'file', '0', 'recruit', '招聘管理', 'fa fa-circle-o', '', '', '1', '1559873905', '1559874087', '0', 'normal');
+INSERT INTO `gong_cheng`.`gc_auth_rule` (`id`, `type`, `pid`, `name`, `title`, `icon`, `condition`, `remark`, `ismenu`, `createtime`, `updatetime`, `weigh`, `status`) VALUES ('225', 'file', '224', 'recruit/index', '查看', 'fa fa-circle-o', '', '', '0', '1559873905', '1559873905', '0', 'normal');
+INSERT INTO `gong_cheng`.`gc_auth_rule` (`id`, `type`, `pid`, `name`, `title`, `icon`, `condition`, `remark`, `ismenu`, `createtime`, `updatetime`, `weigh`, `status`) VALUES ('226', 'file', '224', 'recruit/add', '添加', 'fa fa-circle-o', '', '', '0', '1559873905', '1559873905', '0', 'normal');
+INSERT INTO `gong_cheng`.`gc_auth_rule` (`id`, `type`, `pid`, `name`, `title`, `icon`, `condition`, `remark`, `ismenu`, `createtime`, `updatetime`, `weigh`, `status`) VALUES ('227', 'file', '224', 'recruit/edit', '编辑', 'fa fa-circle-o', '', '', '0', '1559873905', '1559873905', '0', 'normal');
+INSERT INTO `gong_cheng`.`gc_auth_rule` (`id`, `type`, `pid`, `name`, `title`, `icon`, `condition`, `remark`, `ismenu`, `createtime`, `updatetime`, `weigh`, `status`) VALUES ('228', 'file', '224', 'recruit/del', '删除', 'fa fa-circle-o', '', '', '0', '1559873905', '1559873905', '0', 'normal');
+INSERT INTO `gong_cheng`.`gc_auth_rule` (`id`, `type`, `pid`, `name`, `title`, `icon`, `condition`, `remark`, `ismenu`, `createtime`, `updatetime`, `weigh`, `status`) VALUES ('229', 'file', '224', 'recruit/multi', '批量更新', 'fa fa-circle-o', '', '', '0', '1559873905', '1559873905', '0', 'normal');
+

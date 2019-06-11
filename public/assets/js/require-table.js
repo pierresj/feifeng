@@ -1,5 +1,6 @@
 define(['jquery', 'bootstrap', 'moment', 'moment/locale/zh-cn', 'bootstrap-table', 'bootstrap-table-lang', 'bootstrap-table-export', 'bootstrap-table-commonsearch', 'bootstrap-table-template'], function ($, undefined, Moment) {
     var Table = {
+
         list: {},
         // Bootstrap-table 基础配置
         defaults: {
@@ -424,6 +425,13 @@ define(['jquery', 'bootstrap', 'moment', 'moment/locale/zh-cn', 'bootstrap-table
                     var no = typeof this.no !== 'undefined' ? this.no : 0;
                     return "<a href='javascript:;' data-toggle='tooltip' title='" + __('Click to toggle') + "' class='btn-change' data-id='"
                         + row.id + "' data-params='" + this.field + "=" + (value ? no : yes) + "'><i class='fa fa-toggle-on " + (value == yes ? 'text-' + color : 'fa-flip-horizontal text-gray') + " fa-2x'></i></a>";
+                },
+                toggle_delete: function (value, row, index) {
+                    var color = typeof this.color !== 'undefined' ? this.color : 'success';
+                    var yes = typeof this.yes !== 'undefined' ? this.yes : 0;
+                    var no = typeof this.no !== 'undefined' ? this.no : 1;
+                    return "<a href='javascript:;' data-toggle='tooltip' title='" + __('Click to toggle') + "' class='btn-change' data-id='"
+                        + row.id + "' data-params='" + 'is_delete' + "=" + (value ? yes : no) + "'><i class='fa fa-toggle-on " + (value == yes ? 'text-' + color : 'fa-flip-horizontal text-gray') + " fa-2x'></i></a>";
                 }
                 ,
                 url: function (value, row, index) {

@@ -43,7 +43,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         // {field: 'status', title: __('Status'), formatter: function(obj){
                         //         return obj ? '通过' : '未通过';
                         // }},
-                        {field: 'status', title: '审核通过',formatter:Table.api.formatter.toggle,searchList: {"0": '未审核', "cargo": '已审核'}},
+                        {field: 'status', title: '审核通过',formatter:Table.api.formatter.toggle,searchList: {"0": '未审核', "1": '已审核'}},
                         {field: 'see_pay', title: __('See_pay'), operate:'BETWEEN'},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate},
                         // {
