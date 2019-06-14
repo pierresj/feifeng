@@ -10,12 +10,14 @@ class Bid extends Model
     protected $name = 'bid';
     
     // 自动写入时间戳字段
-    protected $autoWriteTimestamp = false;
+    protected $autoWriteTimestamp = true;
 
     // 定义时间戳字段名
-    protected $createTime = false;
-    protected $updateTime = false;
-    
+    protected $createTime = "create_time";
+    protected $updateTime = "update_time";
+    protected $bidStartTime = "bid_start_time";
+    protected $bidEndTime = "bid_end_time";
+
     // 追加属性
     protected $append = [
 
@@ -36,13 +38,13 @@ class Bid extends Model
     public function getBidStartTimeAttr($value, $data)
     {
         $value = $value ? $value : (isset($data['bid_start_time']) ? $data['bid_start_time'] : '');
-        return is_numeric($value) ? date("Y-m-d", $value) : $value;
+        return is_numeric($value)&&!empty($value) ? date("Y-m-d", $value) : $value;
     }
 
     public function getBidEndTimeAttr($value, $data)
     {
         $value = $value ? $value : (isset($data['bid_end_time']) ? $data['bid_end_time'] : '');
-        return is_numeric($value) ? date("Y-m-d", $value) : $value;
+        return is_numeric($value)&&!empty($value) ? date("Y-m-d", $value) : $value;
     }
 
     public function getCreateTimeAttr($value, $data)

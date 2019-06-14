@@ -21,7 +21,7 @@ class Echarge extends Api
         $openid = input('openid', '', 'trim');
         $type = input('type', '', 'trim');
         $f_id = input('f_id', 0, 'int');
-        if(empty($type) || empty($f_id)) {
+        if(empty($type) || empty($f_id) || empty($user_id)) {
             $this->error('缺少参数');
             exit;
         }

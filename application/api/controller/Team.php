@@ -62,7 +62,7 @@ class Team extends Api
             ->where('e.type', 'eq', 'team')
             ->where('e.is_paid', 'eq', 1)
             ->where('e.user_id', 'eq', $user_id)
-            ->field('t.*, e.amount')
+            ->field("t.*, e.amount, FROM_UNIXTIME(e.paid_time, '%Y-%m-%d %H:%i') AS create_time")
             ->order('e.id DESC')
             ->paginate(10);
         return $this->success('ok', $list);

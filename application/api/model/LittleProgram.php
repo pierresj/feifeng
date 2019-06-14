@@ -34,53 +34,64 @@ class LittleProgram Extends Model{
     }
 
     public function getWxUserInfo($encryptedData=null, $iv=null, $code=null){
-//        $this->appid = config('appId');
-//        $this->appsecret = config('appSecret');
-//        $url = "https://api.weixin.qq.com/sns/jscode2session?appid=" . $this->appid . "&secret=" . $this->appsecret . "&js_code=" . $code . "&grant_type=authorization_code";
-//        $re = https_request($url);
-//        $re = json_decode($re, true);
-//        $this->sessionKey = $re['session_key'];
+        $url = "https://api.weixin.qq.com/sns/jscode2session?appid=" . $this->appid . "&secret=" . $this->appsecret . "&js_code=" . $code . "&grant_type=authorization_code";
+        $wx_info = https_request($url);
+        $wx_info = json_decode($wx_info, true);
+//        custom_log('wx','info:'.var_export($wx_info, true));
+//        $this->sessionKey = $wx_info['session_key'];
+        $sessionKey = $wx_info['session_key'];
 
-        $this->appid = "wx4f4bc4dec97d474b";
-        $this->sessionKey = "tiihtNczf5v6AKRyjwEUhQ==";
-        $encryptedData = "CiyLU1Aw2KjvrjMdj8YKliAjtP4gsMZM
-                QmRzooG2xrDcvSnxIMXFufNstNGTyaGS
-                9uT5geRa0W4oTOb1WT7fJlAC+oNPdbB+
-                3hVbJSRgv+4lGOETKUQz6OYStslQ142d
-                NCuabNPGBzlooOmB231qMM85d2/fV6Ch
-                evvXvQP8Hkue1poOFtnEtpyxVLW1zAo6
-                /1Xx1COxFvrc2d7UL/lmHInNlxuacJXw
-                u0fjpXfz/YqYzBIBzD6WUfTIF9GRHpOn
-                /Hz7saL8xz+W//FRAUid1OksQaQx4CMs
-                8LOddcQhULW4ucetDf96JcR3g0gfRK4P
-                C7E/r7Z6xNrXd2UIeorGj5Ef7b1pJAYB
-                6Y5anaHqZ9J6nKEBvB4DnNLIVWSgARns
-                /8wR2SiRS7MNACwTyrGvt9ts8p12PKFd
-                lqYTopNHR1Vf7XjfhQlVsAJdNiKdYmYV
-                oKlaRv85IfVunYzO0IKXsyl7JCUjCpoG
-                20f0a04COwfneQAGGwd5oa+T8yO5hzuy
-                Db/XcxxmK01EpqOyuxINew==";
-        $iv = 'r7BXXKkLb8qrSNn05n0qiA==';
-        $errCode = $this->decryptData($encryptedData, $iv, $data);
+//        $this->appid = "wx4f4bc4dec97d474b";
+//        $this->sessionKey = "tiihtNczf5v6AKRyjwEUhQ==";
+//        $encryptedData = "CiyLU1Aw2KjvrjMdj8YKliAjtP4gsMZM
+//                QmRzooG2xrDcvSnxIMXFufNstNGTyaGS
+//                9uT5geRa0W4oTOb1WT7fJlAC+oNPdbB+
+//                3hVbJSRgv+4lGOETKUQz6OYStslQ142d
+//                NCuabNPGBzlooOmB231qMM85d2/fV6Ch
+//                evvXvQP8Hkue1poOFtnEtpyxVLW1zAo6
+//                /1Xx1COxFvrc2d7UL/lmHInNlxuacJXw
+//                u0fjpXfz/YqYzBIBzD6WUfTIF9GRHpOn
+//                /Hz7saL8xz+W//FRAUid1OksQaQx4CMs
+//                8LOddcQhULW4ucetDf96JcR3g0gfRK4P
+//                C7E/r7Z6xNrXd2UIeorGj5Ef7b1pJAYB
+//                6Y5anaHqZ9J6nKEBvB4DnNLIVWSgARns
+//                /8wR2SiRS7MNACwTyrGvt9ts8p12PKFd
+//                lqYTopNHR1Vf7XjfhQlVsAJdNiKdYmYV
+//                oKlaRv85IfVunYzO0IKXsyl7JCUjCpoG
+//                20f0a04COwfneQAGGwd5oa+T8yO5hzuy
+//                Db/XcxxmK01EpqOyuxINew==";
+//        $iv = 'r7BXXKkLb8qrSNn05n0qiA==';
+        $errCode = $this->decryptData($encryptedData, $iv, $sessionKey, $data);
+
         if ($errCode == 0) {
-            return json_decode($data, true);
+            $data = json_decode($data, true);
+            $data['code'] = 0;
+//            custom_log('wx', 'user:'.var_export($data, true));
+            return $data;
         } else {
-            return $errCode;
+            custom_log('wx', 'error:'.$errCode);
+//            custom_log('wx', 'error:'.$errCode);
+            return ['code' => $errCode];
         }
     }
     /**
      * 检验数据的真实性，并且获取解密后的明文.
      * @param $encryptedData string 加密的用户数据
      * @param $iv string 与用户数据一同返回的初始向量
+     * @param $sessionKey string 与用户数据一同返回的初始向量
      * @param $data string 解密后的原文
      *
      * @return int 成功0，失败返回对应的错误码
      */
-    public function decryptData($encryptedData, $iv, &$data ){
-        if (strlen($this->sessionKey) != 24) {
+    public function decryptData($encryptedData, $iv, $sessionKey, &$data ){
+//        if (strlen($this->sessionKey) != 24) {
+//            return "-41001";
+//        }
+        if (strlen($sessionKey) != 24) {
             return "-41001";
         }
-        $aesKey=base64_decode($this->sessionKey);
+//        $aesKey=base64_decode($this->sessionKey);
+        $aesKey=base64_decode($sessionKey);
 
         if (strlen($iv) != 24) {
             return "-41002";
@@ -88,11 +99,12 @@ class LittleProgram Extends Model{
         $aesIV=base64_decode($iv);
 
         $aesCipher=base64_decode($encryptedData);
-
         $result=openssl_decrypt( $aesCipher, "AES-128-CBC", $aesKey, 1, $aesIV);
 
         $dataObj=json_decode( $result );
+
         if( $dataObj  == NULL ) {
+            custom_log('wx',var_export(['encryptedData'=>$encryptedData,'iv'=>$iv,'sessionKey'=>$sessionKey],true));
             return "-41003";
         }
         if( $dataObj->watermark->appid != $this->appid ) {
@@ -223,21 +235,10 @@ class LittleProgram Extends Model{
             $state = input('state','','trim');
             $user_access_token_json = https_request("https://api.weixin.qq.com/sns/oauth2/access_token?appid=".$this->appid."&secret=".$this->appsecret."&code=".$code."&grant_type=authorization_code");
             $user_access_token = json_decode($user_access_token_json,true);
-
+            print_r($user_access_token);
             $user_info_json = https_request("https://api.weixin.qq.com/sns/userinfo?access_token=".$user_access_token['access_token']."&openid=".$user_access_token['openid']."&lang=zh_CN ");
             $resuult = json_decode($user_info_json,true);
             cache($code,$resuult,300);
-
-            //更新user表的openid
-            $wx_info = [
-                'openid' => $resuult['openid'],
-                'nickname' => $resuult['nickname'],
-                'head_img' => $resuult['headimgurl'],
-                'reg_step' => 2,
-                'credit_line' => 5
-            ];
-//            model('Users')->save(['openid' => $resuult['openid']], ['unionid' => $resuult['unionid']]);
-            model('Users')->where('unionid', $resuult['unionid'])->update($wx_info);
 
             $return['lexer'] = $state == 'STATE' ?  "" : base_decodes($state);
             $return['code'] = $code;

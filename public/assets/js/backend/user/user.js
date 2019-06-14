@@ -25,13 +25,36 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                     [
                         {checkbox: true},
                         {field: 'id', title: __('Id'), sortable: true},
+                        {field: 'nickname', title: __('Nickname')},
+                        {field: 'head_img', title: __('Head_img'),formatter: Table.api.formatter.image},
                         // {field: 'group.name', title: __('Group')},
                         {field: 'role', title: __('Role'),formatter: function(obj){
-                                return obj==1?'需求方':'供应方';
+                            var str;
+                            switch(obj){
+                                case 1:
+                                    str = __('Role 1');
+                                    break;
+                                case 2:
+                                    str = __('Role 2');
+                                    break;
+                                case 3:
+                                    str = __('Role 3');
+                                    break;
+                                case 4:
+                                    str = __('Role 4');
+                                    break;
+                                case 5:
+                                    str = __('Role 5');
+                                    break;
+                                default:
+                                    str = '-';
+                                    break;
+                            }
+                            return str;
 
-                        },searchList: {"1": __('Role 1'), "2": __('Role 2')}},
+                        },searchList: {"1": __('Role 1'), "2": __('Role 2'), "3":('Role 3'), "4":('Role 4'), "5":('Role 5')}},
                         {field: 'username', title: __('Username'), operate: 'LIKE'},
-                        // {field: 'company_name', title: '公司名称'},
+                        {field: 'company_name', title: '公司名称'},
                         {field: 'mobile', title: '联系电话'},
                         // {field: 'project_name', title: '项目名称'},
                         // {field: 'index', title: '项目类型', formatter: function(value,row, index){

@@ -57,7 +57,7 @@ class Bid extends Api
             ->where('e.type', 'eq', 'bid')
             ->where('e.is_paid', 'eq', 1)
             ->where('e.user_id', 'eq', $user_id)
-            ->field('b.*, e.amount')
+            ->field("b.*, e.amount, FROM_UNIXTIME(e.paid_time, '%Y-%m-%d %H:%i') AS create_time, FROM_UNIXTIME(b.start_time, '%Y-%m-%d %H:%i') AS start_time, FROM_UNIXTIME(b.end_time, '%Y-%m-%d %H:%i') AS end_time, FROM_UNIXTIME(b.bid_start_time, '%Y-%m-%d %H:%i') AS bid_start_time, FROM_UNIXTIME(b.bid_end_time, '%Y-%m-%d %H:%i') AS bid_end_time")
             ->order('e.id DESC')
             ->paginate(10);
         return $this->success('ok', $list);
@@ -99,6 +99,10 @@ class Bid extends Api
             return $this->error($result);
         }
         $model = new \app\admin\model\Bid();
+        $data['bid_start_time'] = strtotime($data['bid_start_time']);
+        $data['bid_end_time'] = strtotime($data['bid_end_time']);
+        $data['start_time'] = strtotime($data['start_time']);
+//        $data['end_time'] = strtotime($data['end_time']);
         if($model->allowField(true)->where('id', $id)->update($data) !== false){
             return $this->success('提交成功');
         }else{

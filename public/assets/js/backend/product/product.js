@@ -25,17 +25,18 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                     [
                         {checkbox: true},
                         {field: 'id', title: __('Id')},
-                        {field: 'company.company_name', title: __('Company.company_name')},
+                        {field: 'user', title: "关联会员"},
+                        {field: 'user.company_name', title: __('User.company_name')},
                         {field: 'product_name', title: __('Product_name')},
                         {field: 'type.type_name', title: __('Type.type_name')},
                         {field: 'product_standard', title: __('Product_standard')},
                         {field: 'product_price', title: __('Product_price'), operate:'BETWEEN'},
                         {field: 'product_images', title: __('Product_images'), formatter: Table.api.formatter.image},
-                        {field: 'company.phone', title: __('Company.phone')},
-                        {field: 'company.province', title: __('Company.province')},
-                        {field: 'company.city', title: __('Company.city')},
-                        {field: 'company.district', title: __('Company.district')},
-                        {field: 'company.address', title: __('Company.address')},
+                        {field: 'user.mobile', title: __('User.mobile')},
+                        // {field: 'company.province', title: __('Company.province')},
+                        // {field: 'company.city', title: __('Company.city')},
+                        // {field: 'company.district', title: __('Company.district')},
+                        // {field: 'company.address', title: __('Company.address')},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]
                 ]

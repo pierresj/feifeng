@@ -70,9 +70,12 @@ class Product extends Api
                 ['company_id' => $company_id, 'product_name' => '槽钢', 'type_id' => 1, 'product_standard' => '规格2', 'product_price' => '1000', 'product_images' => '/uploads/20181112/746c56e5f8bf0b8c1e3eaedabb86a19f.jpg', 'content' => '商品描述2'],
                 ['company_id' => $company_id, 'product_name' => '不锈钢', 'type_id' => 1, 'product_standard' => '规格3', 'product_price' => '1000', 'product_images' => '/uploads/20181112/746c56e5f8bf0b8c1e3eaedabb86a19f.jpg', 'content' => '商品描述3'],
             ];*/
+            if(!isset($data['user_id']) && !is_numeric($data['user_id'])) {
+                $this->error('缺少用户参数');
+            }
             $product = json_decode($data['product'], true);
             foreach ($product as &$p) {
-                $p['company_id'] = $data['user_id'];
+                $p['user_id'] = $data['user_id'];
                 $p['create_time'] = time();
             }
 //            unset($p);
@@ -114,9 +117,13 @@ class Product extends Api
         }
     }
 	
-	public function show($id)
+	public function show($id, $user_id=null)
 	{
-		$info = \app\admin\model\Product::with(['company', 'type'])->where('company.status', 1)->find($id);
+//		$info = \app\admin\model\Product::with(['type'])->where('status', 1)->find($id);
+        $info = \app\admin\model\Product::with(['type'])->find($id);
+        if($info['user_id'] != $user_id && $info['is_delete'] == 1 && $info['status'] == 0) {
+            $this->success('ok', []);
+        }
 		$this->success('',$info);
     }
 

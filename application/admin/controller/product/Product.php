@@ -51,23 +51,26 @@ class Product extends Backend
             }
             list($where, $sort, $order, $offset, $limit) = $this->buildparams();
             $total = $this->model
-                    ->with(['company','type'])
+                    ->with(['type', 'user'])
                     ->where($where)
                     ->order($sort, $order)
                     ->count();
 
             $list = $this->model
-                    ->with(['company','type'])
+                    ->with(['type', 'user'])
                     ->where($where)
                     ->order($sort, $order)
                     ->limit($offset, $limit)
                     ->select();
-
-            foreach ($list as $row) {
-                
-                
-            }
             $list = collection($list)->toArray();
+            foreach ($list as &$l) {
+                if(empty($l['user_id'])) {
+                    $l['user'] = '-';
+                } else {
+                    $l['user'] = model('User')->where('id', $l['user_id'])->value('nickname');
+                }
+            }
+            unset($l);
             $result = array("total" => $total, "rows" => $list);
 
             return json($result);

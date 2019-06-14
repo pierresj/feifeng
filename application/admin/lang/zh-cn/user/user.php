@@ -2,12 +2,16 @@
 
 return [
     'Id'             => 'ID',
+    'Nickname'       => '微信昵称',
+    'Head_img'       => '微信头像',
     'Group_id'       => '组别ID',
     'Role'           => '角色',
     'Role 1'         => '需求方',
-    'Role 2'         => '供应方',
+    'Role 2'         => '劳务队',
+    'Role 3'         => '设计预算师',
+    'Role 4'         => '设备材料商',
+    'Role 5'         => '其他',
     'Username'       => '用户名',
-    'Nickname'       => '昵称',
     'Password'       => '密码',
     'Salt'           => '密码盐',
     'Email'          => '电子邮箱',

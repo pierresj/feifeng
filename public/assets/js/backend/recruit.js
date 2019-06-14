@@ -33,6 +33,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'wage', title: __('Wage')},
                         {field: 'company', title: __('Company')},
                         {field: 'tel', title: __('Tel')},
+                        {field: 'status', title: '审核通过',formatter:Table.api.formatter.toggle},
                         {field: 'is_delete', title: __('Is_delete'),operate: false,formatter:Table.api.formatter.toggle_delete,yes:0, no:1},
                         {field: 'create_time', title: __('Create_time'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}

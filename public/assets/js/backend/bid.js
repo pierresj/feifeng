@@ -25,6 +25,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                     [
                         {checkbox: true},
                         {field: 'id', title: __('Id')},
+                        {field: 'user', title: "关联会员"},
                         {field: 'type', title: __('Type'), formatter(obj){
                             return obj == 'labour'?'劳务':'货物';
                         },searchList: {"labour": '劳务', "cargo": '货物'}},

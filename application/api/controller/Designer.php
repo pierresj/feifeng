@@ -64,7 +64,7 @@ class Designer extends Api
             ->where('e.type', 'eq', 'designer')
             ->where('is_paid', 'eq', 1)
             ->where('e.user_id', 'eq', $user_id)
-            ->field('d.*, e.amount')
+            ->field("d.*, e.amount, FROM_UNIXTIME(e.paid_time, '%Y-%m-%d %H:%i') AS create_time")
             ->order('e.id DESC')
             ->paginate(10);
         return $this->success('ok', $list);

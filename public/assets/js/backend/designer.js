@@ -25,6 +25,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                     [
                         {checkbox: true},
                         {field: 'id', title: __('Id')},
+                        {field: 'user', title: "关联会员"},
                         {field: 'designer_name', title: __('Designer_name')},
                         {field: 'phone', title: __('Phone')},
                         {field: 'province', title: __('Province')},

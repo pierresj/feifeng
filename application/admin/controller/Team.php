@@ -73,6 +73,11 @@ class Team extends Backend
             foreach ($list as &$l) {
                 $experience = model('Experience')->experience_arr("`id` IN ({$l['experience_id']})");
                 $l['experience_id'] = join(',', $experience);
+                if(empty($l['user_id'])) {
+                    $l['user'] = '-';
+                } else {
+                    $l['user'] = model('User')->where('id', $l['user_id'])->value('nickname');
+                }
             }
             unset($l);
 			$result = array("total" => $total, "rows" => $list);

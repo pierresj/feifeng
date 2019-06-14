@@ -60,12 +60,13 @@ class Recruit extends Api
         }
 		$model = new \app\admin\model\Recruit();
 		if($model->allowField(true)->create($data)){
-//			$phone = Config::where('group','weapp')->where('name', 'contact_phone')->value('value');
-//			$alisms = Alisms::instance();
-//			$res = $alisms->mobile($phone)
-//				->template('SMS_164508758')
-//				->param(['phone' => $data['phone'], 'name' => $data['designer_name']])
-//				->send();
+			$phone = Config::where('group','weapp')->where('name', 'contact_phone')->value('value');
+			$user_info = model('User')->where('id', $data['user_id'])->find();
+			$alisms = Alisms::instance();
+			$res = $alisms->mobile($phone)
+				->template('SMS_167531982')
+				->param(['phone' => $user_info['mobile'], 'name' => $user_info['username'], 'content' => "招聘:".$data['position']])
+				->send();
 //			halt($res);
             return $this->success('提交成功');
 		}else{

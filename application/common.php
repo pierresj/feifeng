@@ -380,7 +380,7 @@ function custom_log($filename,$string=null) {
     {
         mkdir($dir, 0700);
     }
-    $path = '/www/wwwroot/laowu/Log/'.$real_filename;
+    $path = '/www/wwwroot/bee.lezhier.com/Log/'.$real_filename;
     file_put_contents($path, $strings,FILE_APPEND);
 }
 /**

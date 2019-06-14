@@ -428,6 +428,14 @@ class User extends Api
             return $this->error("缺少参数");
         }
         $data = request()->param();
+
+        $result = $this->validate($data,'User.improve');
+        if(true !== $result){
+            // 验证失败 输出错误信息
+            return $this->error($result);
+        }
+
+        custom_log('user', var_export($data, true));
         unset($data['user_id']);
         $UserModel = new \app\admin\model\User();
         $re = $UserModel->allowField(true)->where('id', $user_id)->update($data);

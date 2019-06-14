@@ -10,11 +10,11 @@ class Team extends Model
     protected $name = 'team';
     
     // 自动写入时间戳字段
-    protected $autoWriteTimestamp = false;
+    protected $autoWriteTimestamp = true;
 
     // 定义时间戳字段名
-    protected $createTime = false;
-    protected $updateTime = false;
+    protected $createTime = "create_time";
+    protected $updateTime = "update_time";
     
     // 追加属性
     protected $append = [
@@ -44,6 +44,12 @@ class Team extends Model
     {
         $value = $value ? $value : (isset($data['create_time']) ? $data['create_time'] : '');
         return is_numeric($value) ? date("Y-m-d H:i:s", $value) : $value;
+    }
+
+    public function getCreateTimeAttr($value, $data)
+    {
+        $value = $value ? $value : (isset($data['create_time']) ? $data['create_time'] : '');
+        return is_numeric($value) ? date("Y-m-d H:i", $value) : $value;
     }
 
 
